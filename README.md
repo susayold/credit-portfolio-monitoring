@@ -1,6 +1,12 @@
 # Credit Portfolio Monitoring & Early Warning
 
-## [OPEN LIVE PROJECT](https://susayold.github.io/credit-portfolio-monitoring/)
+<p align="left">
+  <a href="https://susayold.github.io/credit-portfolio-monitoring/">
+    <img src="https://img.shields.io/badge/VIEW_LIVE_PROJECT-2559A7?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" height="40" alt="View live Credit Portfolio Monitoring project">
+  </a>
+</p>
+
+**Live website:** [English / Tiếng Việt](https://susayold.github.io/credit-portfolio-monitoring/)
 
 Interactive website with English and Vietnamese views. The live project is the recommended starting point.
 
