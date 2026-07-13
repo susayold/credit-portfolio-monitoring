@@ -1,0 +1,2 @@
+# Core cross-platform reviewer dependencies. Windows Excel cache refresh is optional.
+-r requirements-core.txt

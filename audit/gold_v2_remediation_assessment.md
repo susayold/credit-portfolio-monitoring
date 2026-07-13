@@ -1,0 +1,5 @@
+# Project 2 Gold v2 Remediation Assessment
+
+> Educational portfolio-monitoring and executive-dashboard framework. Observed credit outcomes are limited to historical matured accepted/booked accounts. Monthly delinquency, roll-rate, cure and vintage servicing are separately labelled synthetic controls-testing evidence. P4 ECL staging remains proxy-based, P5 operations indicators retain their observed/synthetic boundaries, and P6 policy impact remains a historical booked-account simulation. No live servicing platform, regulatory report, production model monitoring, independent validation or organisational sign-off is claimed.
+
+The v1 package is reclassified as a Gold candidate. This historical assessment originally reflected an environment without detected Power BI Desktop. The current v2.1.4 environment detects Power BI Desktop 2.153.1206.0, but PBIX remains an external execution gate because a governed semantic model and runtime test cycle have not yet been executed; no binary will be fabricated.

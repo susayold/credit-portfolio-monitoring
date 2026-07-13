@@ -1,0 +1,16 @@
+relative_path,folder,extension,size_bytes,last_modified,decision,rationale
+dashboard/README.md,dashboard,.md,340,2026-07-01T15:18:49,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+docs/business_requirements.md,docs,.md,1217,2026-07-01T12:40:12,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/dashboard_spec.md,docs,.md,816,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/data_model.md,docs,.md,770,2026-07-01T12:37:10,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/interview_story.md,docs,.md,1280,2026-07-01T12:40:12,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/metric_catalog.md,docs,.md,1147,2026-07-01T12:40:12,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/powerbi_dashboard_standard.md,docs,.md,723,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+mockup/README.md,mockup,.md,312,2026-07-01T15:18:09,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+powerbi/README.md,powerbi,.md,684,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+PROJECT_1_STATUS.md,PROJECT_1_STATUS.md,.md,2595,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+README.md,README.md,.md,1963,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+reports/executive_summary.md,reports,.md,1675,2026-07-01T12:40:35,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/portfolio_kpi_summary.csv,reports,.csv,577,2026-07-01T12:40:32,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/segment_action_log.csv,reports,.csv,3833,2026-07-01T12:40:32,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/top_risk_segments.csv,reports,.csv,5143,2026-07-01T12:40:32,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."

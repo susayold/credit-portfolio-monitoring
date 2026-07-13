@@ -1,0 +1,107 @@
+test_case_id,test_area,status,evidence,test_suite,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+UAT-001,Population,PASS,packaged full observed base,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-002,Population,PASS,account_id duplicate scan,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-003,Population,PASS,binary maturity reconciliation,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-004,Maturity,PASS,portfolio_monthly_trend.csv,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-005,Maturity,PASS,outcome_status,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-006,Metadata,PASS,row-level metadata,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-007,Model,PASS,model eligibility sort,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-008,Model,PASS,model eligibility sort,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-009,Model,PASS,eligibility gate,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-010,Model,PASS,eligibility gate,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-011,Model,PASS,matured outcomes,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-012,Model,PASS,matured outcomes,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-013,Model,PASS,outputs/model_ks_threshold_detail.csv,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-014,Model,PASS,10 deterministic row shuffles,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-015,Model,PASS,hand-calculated tie toy,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-016,Model,PASS,one-class guardrail,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-017,Model,PASS,fixed-bin PSI,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-018,Model,PASS,model_monitoring_summary.csv,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-019,Calibration,PASS,excluded_immature_accounts,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-020,Calibration,PASS,formula recomputation,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-021,Drift,PASS,feature_drift_summary.csv,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-022,Drift,PASS,current feature driver set,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-023,Policy,PASS,policy bridge,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-024,Policy,PASS,common matured population,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-025,Policy,PASS,policy EL routing identity,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-026,Policy,PASS,policy trade-off,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-027,Policy,PASS,decision-routing EL terminology,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-028,Policy,PASS,supports pilot-not-rollout conclusion,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-029,Policy,PASS,policy_reconciliation_p6.csv,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-030,Policy,PASS,frozen PD maximum,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-031,Policy,PASS,scenario_4_decline_threshold_30,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-032,Vintage,PASS,synthetic control,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-033,Vintage,PASS,term-aware synthetic engine,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-034,Vintage,PASS,term-aware balance control,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-035,Stock flow,PASS,beginning + flow = ending,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-036,Stock flow,PASS,distinct fields,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-037,Roll rate,PASS,transition denominator,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-038,Cure,PASS,cure_rate_summary.csv,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-039,ECL,PASS,frozen P4 snapshot,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-040,ECL,PASS,scenario overlays,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-041,ECL,PASS,ecl concentration,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-042,ECL,PASS,ecl_readiness_kri.csv,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-043,EWS,PASS,kri status summary,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-044,EWS,PASS,current condition monitoring,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-045,EWS,PASS,no false trend,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-046,EWS,PASS,Green trigger for Amber; Amber trigger for Red,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-047,EWS,PASS,not hard-coded full portfolio,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-048,EWS,PASS,KRI-002 eligible-period rule,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-049,Actions,PASS,KRI-003 action governance,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-050,Actions,PASS,alert-action linkage,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-051,Actions,PASS,senior action schema,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-052,Lineage,PASS,source manifest,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-053,Lineage,PASS,version manifest,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-054,Dashboard,PASS,Exact HTML section-view selector,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-055,Dashboard,PASS,headless browser captures,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+UAT-056,Claims,PASS,explicit release boundary,UAT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-001,Integration,PASS,validation/source_manifest.csv,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-002,Integration,PASS,frozen input package,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-003,Integration,PASS,SHA-256 recomputation,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-004,Integration,PASS,SQLite execution,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-005,Integration,PASS,Excel COM calculation,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-006,Integration,PASS,Python versus Excel,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-007,Integration,PASS,semantic lint only,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-008,Integration,PASS,no fake execution,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-009,Integration,PASS,typed expected fields,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-010,Integration,PASS,one baseline test per governed measure,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-011,Integration,PASS,policy ambiguity and synthetic default-period PBIX tests,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-012,Integration,PASS,TEXT expected fields,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-013,Integration,PASS,concrete filter contexts,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-014,Integration,PASS,browser headless captures,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-015,Integration,PASS,Excel reviewer pack,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-016,Integration,PASS,DAX dictionary,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-017,Integration,PASS,page spec,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-018,Integration,PASS,business-purpose mapping,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-019,Integration,PASS,run modes,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-020,Integration,PASS,reviewer sample,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-021,Integration,PASS,reviewer sample,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-022,Integration,PASS,governance integration,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-023,Integration,PASS,P6 integration,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-024,Integration,PASS,evidence status,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+SIT-025,Integration,PASS,report navigation,SIT,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-001,Negative,PASS,isna detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-002,Negative,PASS,duplicate detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-003,Negative,PASS,PD range detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-004,Negative,PASS,PD range detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-005,Negative,PASS,binary detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-006,Negative,PASS,binary detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-007,Negative,PASS,non-negative detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-008,Negative,PASS,maturity presentation control,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-009,Negative,PASS,grain detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-010,Negative,PASS,allowed-term detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-011,Negative,PASS,term residual-balance control,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-012,Negative,PASS,bridge equality detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-013,Negative,PASS,row-sum detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-014,Negative,PASS,allocation detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-015,Negative,PASS,owner completeness detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-016,Negative,PASS,referential integrity detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-017,Negative,PASS,variance sign detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-018,Negative,PASS,path regex,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-019,Negative,PASS,SHA-256 comparison,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-020,Negative,PASS,source existence detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-021,Negative,PASS,DAX semantic lint,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-022,Negative,PASS,DAX semantic lint,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-023,Negative,PASS,formula-count gate,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-024,Negative,PASS,PBIX binary gate,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL
+NEG-025,Negative,PASS,metadata detector,NEGATIVE,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Consolidated executable test evidence,ALL

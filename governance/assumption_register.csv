@@ -1,0 +1,11 @@
+assumption_id,assumption,value,basis,use_or_impact,owner,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+ASM-001,Outcome maturity,matured_flag = 1,P3/P6 frozen data,Observed bad-rate and calibration denominator,Model Owner,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-002,Minimum matured accounts,1000,Monitoring design,Period eligibility,Model Risk,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-003,Minimum bad events,50,Monitoring design,Period eligibility,Model Risk,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-004,PSI baseline,2014-01 to 2015-12,P3 development era,Fixed-bin drift reference,Model Risk,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-005,Synthetic horizon,36 MOB,Controls-testing design,Does not imply loan closure,Collections,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-006,Synthetic term mix,70% 36m / 30% 60m,Documented proxy because P3 term is unavailable,Term-aware amortisation,Portfolio Risk,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-007,Stage 2,P4 broad proxy,P4 v1.2.2,Not production SICR,Credit Risk,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-008,Manual review handling time,10 minutes/case,P6 assumption,Operations workload proxy,Operations,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-009,Risk appetite,Educational thresholds,Portfolio design,No organisational approval claim,Risk Committee,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL
+ASM-010,ECL period movement,No prior snapshot,P4 frozen reporting date,No fabricated trend,Finance Risk,Governance,Assumption,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Configurable educational assumptions,ALL

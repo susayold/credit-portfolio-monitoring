@@ -1,0 +1,9 @@
+sequence,bridge_step,ecl_change,running_ecl,methodology_note
+0,Opening ECL - prior assumption set,0.0,47608878.82880977,Same frozen population; prior proxy assumptions
+1,Population/scope adjustment,0.0,47608878.82880977,No population change in same-population bridge
+2,Staging methodology change,9635119.718032457,57243998.546842225,Watchlist proxy threshold 25% to current hierarchy
+3,PD parameter change,6025041.58895193,63269040.135794155,Prior 0.90x PD scale to current 1.00x
+4,LGD parameter change,10735609.41925671,74004649.55505086,Flat 35% LGD to loan-level P3/P6 proxy
+5,EAD projection change,53909834.04640454,127914483.6014554,Linear future run-off to constant current EAD
+6,Discounting change,-16621101.210068375,111293382.39138703,No discounting to contractual-rate EIR proxy
+7,Scenario weight change,7356976.047604755,118650358.43899179,20/65/15 to 15/60/25

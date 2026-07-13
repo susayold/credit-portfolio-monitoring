@@ -1,0 +1,32 @@
+relative_path,decision,rationale
+dashboard/index.html,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+dashboard/README.md,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+data/processed/fico_band_summary.csv,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+data/processed/monthly_portfolio_enriched.csv,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+data/processed/segment_risk_enriched.csv,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+docs/business_requirements.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/dashboard_spec.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/data_model.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/interview_story.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/metric_catalog.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/powerbi_dashboard_standard.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+mockup/index.html,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+mockup/README.md,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+powerbi/build_steps.md,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/data_model.md,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/dax_measures.md,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/page_layout_spec.md,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/README.md,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/theme.json,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/tooltip_logic.md,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/visual_mapping.csv,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+PROJECT_1_STATUS.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+README.md,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+reports/executive_summary.md,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/portfolio_kpi_summary.csv,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/segment_action_log.csv,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/top_risk_segments.csv,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+scripts/01_build_credit_portfolio_analytics.py,REBUILD,Legacy script belongs to earlier credit analytics draft.
+visuals/default_rate_by_fico_band.png,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+visuals/monthly_volume_default_trend.png,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+visuals/top_risk_segments.png,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."

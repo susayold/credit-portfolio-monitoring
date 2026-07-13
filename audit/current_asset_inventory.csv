@@ -1,0 +1,32 @@
+relative_path,folder,extension,size_bytes,last_modified,decision,rationale
+dashboard/index.html,dashboard,.html,1983,2026-07-01T12:40:35,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+dashboard/README.md,dashboard,.md,340,2026-07-01T15:18:49,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+data/processed/fico_band_summary.csv,data,.csv,255,2026-07-01T12:40:35,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+data/processed/monthly_portfolio_enriched.csv,data,.csv,38174,2026-07-01T12:40:31,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+data/processed/segment_risk_enriched.csv,data,.csv,3048926,2026-07-01T12:40:32,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+docs/business_requirements.md,docs,.md,1217,2026-07-01T12:40:12,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/dashboard_spec.md,docs,.md,816,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/data_model.md,docs,.md,770,2026-07-01T12:37:10,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/interview_story.md,docs,.md,1280,2026-07-01T12:40:12,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/metric_catalog.md,docs,.md,1147,2026-07-01T12:40:12,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+docs/powerbi_dashboard_standard.md,docs,.md,723,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+mockup/index.html,mockup,.html,10130,2026-07-01T15:18:09,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+mockup/README.md,mockup,.md,312,2026-07-01T15:18:09,ARCHIVE,HTML/dashboard is design reference only; final dashboard is Power BI-first.
+powerbi/build_steps.md,powerbi,.md,1640,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/data_model.md,powerbi,.md,1752,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/dax_measures.md,powerbi,.md,5332,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/page_layout_spec.md,powerbi,.md,2138,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/README.md,powerbi,.md,684,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/theme.json,powerbi,.json,1449,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/tooltip_logic.md,powerbi,.md,1269,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+powerbi/visual_mapping.csv,powerbi,.csv,3795,2026-07-01T15:16:51,REFINE,Power BI-first pack exists but must be rebuilt under P2 capstone monitoring scope.
+PROJECT_1_STATUS.md,PROJECT_1_STATUS.md,.md,2595,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+README.md,README.md,.md,1963,2026-07-01T15:18:33,REFINE,Text artifact can inform final README/methodology but needs claim-boundary cleanup.
+reports/executive_summary.md,reports,.md,1675,2026-07-01T12:40:35,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/portfolio_kpi_summary.csv,reports,.csv,577,2026-07-01T12:40:32,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/segment_action_log.csv,reports,.csv,3833,2026-07-01T12:40:32,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+reports/top_risk_segments.csv,reports,.csv,5143,2026-07-01T12:40:32,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+scripts/01_build_credit_portfolio_analytics.py,scripts,.py,17150,2026-07-01T12:39:55,REBUILD,Legacy script belongs to earlier credit analytics draft.
+visuals/default_rate_by_fico_band.png,visuals,.png,36763,2026-07-01T12:40:35,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+visuals/monthly_volume_default_trend.png,visuals,.png,187092,2026-07-01T12:40:33,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."
+visuals/top_risk_segments.png,visuals,.png,42988,2026-07-01T12:40:35,KEEP,"Useful reference/evidence for existing asset audit, not final capstone output."

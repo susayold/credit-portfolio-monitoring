@@ -1,0 +1,5 @@
+artifact,status,evidence,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+01_executive_desktop.png,PASS,"browser=msedge.exe; viewport=1440,1000; size=116933; black_ratio=0.0000; distinct_colors=2780",Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Browser dashboard screenshots; not Power BI screenshots,ALL
+02_model_monitoring_desktop.png,PASS,"browser=msedge.exe; viewport=1440,1000; size=94688; black_ratio=0.0000; distinct_colors=2329",Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Browser dashboard screenshots; not Power BI screenshots,ALL
+03_policy_performance_desktop.png,PASS,"browser=msedge.exe; viewport=1440,1000; size=106105; black_ratio=0.0000; distinct_colors=2673",Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Browser dashboard screenshots; not Power BI screenshots,ALL
+04_executive_mobile.png,PASS,"browser=msedge.exe; viewport=500,900; size=48420; black_ratio=0.0000; distinct_colors=1119",Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Browser dashboard screenshots; not Power BI screenshots,ALL

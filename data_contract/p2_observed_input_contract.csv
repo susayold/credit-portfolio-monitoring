@@ -1,0 +1,12 @@
+field,requirement,business_definition,population_scope,source_project,data_layer,data_status,source_version,claim_boundary,as_of_period
+account_id,Required,Unique accepted/booked account identifier,All accounts,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+application_period,Required,Historical origination/application cohort period,All accounts,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+matured_flag,Required,Outcome eligibility flag,Outcome gate,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+bad_flag,Required,Observed historical outcome; used only when matured_flag=1,Matured only,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+pd,Required,Frozen P3-derived probability of default,All for mix; matured for calibration,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+scorecard_points,Required,Frozen P3-derived score,All accounts,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+risk_grade,Required,Frozen risk grade,All accounts,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+exposure,Required,EAD/exposure proxy,All accounts,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+policy_decision,Derived,Baseline policy decision,Historical simulation,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+fico,Required,FICO for segment overlay and drift,All accounts,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL
+dti,Required,DTI for segment overlay and drift,All accounts,P2,Observed,Contract,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Historical accepted/booked accounts; outcomes matured only,ALL

@@ -1,0 +1,9 @@
+finding_id,area,finding,decision,required_remediation
+P2-R01,Maturity,Immature outcomes displayed as zero,REBUILD,Outcome metrics must use matured denominators and N/A when no eligible accounts
+P2-R02,EWS,Historical maxima labelled current,REBUILD,"Use latest eligible period, prior, baseline, movement and persistence"
+P2-R03,Synthetic,Single vintage and 36-month amortisation for all,REBUILD,Use multiple origination vintages and term-aware balances
+P2-R04,Stock flow,Static rates labelled stock-flow bridge,REBUILD,"Reconcile beginning stock, inflow, cures, defaults, closures and ending stock"
+P2-R05,Policy/ECL,Static summaries only,REBUILD,Add policy-version bridge and controlled ECL overlays
+P2-R06,Technical,SQL/DAX/Excel tests not executable,REBUILD,"Run SQL, add complete DAX and formula-driven Excel controls"
+P2-R07,Packaging,External dependencies and stale manifest,REBUILD,Add reviewer mode and generate manifest after final report
+P2-R08,Power BI,No PBIX or Power BI engine available,OPEN_EXTERNAL,Do not fake PBIX; deliver executable dashboard and governed PBIX build gate

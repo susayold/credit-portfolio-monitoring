@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "manifest": "validation/release_package_manifest.csv",
+  "manifested_file_count": 1643,
+  "controlled_exclusions": [
+    "final ZIP binary outside project root",
+    "validation/release_manifest_verification.json",
+    "validation/release_package_manifest.csv"
+  ],
+  "missing_files": [],
+  "hash_mismatches": [],
+  "unlisted_uncontrolled_files": []
+}

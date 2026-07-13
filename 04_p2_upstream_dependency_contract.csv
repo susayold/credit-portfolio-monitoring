@@ -1,0 +1,6 @@
+source_project,monitoring_use,packaged_reviewer_path,source_version,data_layer,data_status,claim_boundary,as_of_period
+P2,Observed account base and frozen PD/score,data/observed/p2_observed_account_base.csv.gz,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Mixed,Frozen,Reviewer paths are packaged and portable; author mode may refresh external roots,ALL
+P2,Model benchmark and governance,data/reference_p3/,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Mixed,Frozen,Reviewer paths are packaged and portable; author mode may refresh external roots,ALL
+P2,"ECL, stress and concentration overlays",data/reference_p4/,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Mixed,Frozen,Reviewer paths are packaged and portable; author mode may refresh external roots,ALL
+P2,Fraud and operational-risk context,data/reference_p5/,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Mixed,Frozen,Reviewer paths are packaged and portable; author mode may refresh external roots,ALL
+P2,Policy-version reconciliation,data/reference_p6/,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Mixed,Frozen,Reviewer paths are packaged and portable; author mode may refresh external roots,ALL

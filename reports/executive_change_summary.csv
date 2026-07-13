@@ -1,0 +1,6 @@
+metric,current_period,current,prior,change,status,evidence_note,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+Observed bad rate matured,2017-12,0.2135390741662518,0.2088366705278835,0.004702403638368324,RED,Matured outcomes only,Mixed,Derived,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Executive current/prior/change readout,2017-12
+AUC,2017-12,0.5968028680180579,0.6099854490387366,-0.0131825810206787,MONITOR,Moderate ranking; not strong,Mixed,Derived,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Executive current/prior/change readout,2017-12
+PD PSI,2017-12,0.127022525719931,0.1005491876977432,0.0264733380221878,AMBER,Fixed development bins,Mixed,Derived,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Executive current/prior/change readout,2017-12
+Calibration gap,2017-12,0.0288835022621823,0.0213761972859063,0.0075073049762759,GREEN,Observed minus predicted,Mixed,Derived,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Executive current/prior/change readout,2017-12
+Synthetic 30+ DPD,2020-10,0.1233396584440227,0.1189567430025445,0.0043829154414782,RED,Synthetic controls only; latest eligible KRI period,Mixed,Derived,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Executive current/prior/change readout,2020-10

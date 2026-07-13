@@ -1,0 +1,5 @@
+from_bucket,starting_accounts,cured_accounts,cure_rate,denominator_definition,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+1-29,44427,12452,0.2802800099038873,Account-month transitions starting in delinquent bucket,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic cure rates with explicit denominator,ALL
+30-59,31879,3661,0.11484049060510054,Account-month transitions starting in delinquent bucket,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic cure rates with explicit denominator,ALL
+60-89,29037,0,0.0,Account-month transitions starting in delinquent bucket,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic cure rates with explicit denominator,ALL
+90+,11815,0,0.0,Account-month transitions starting in delinquent bucket,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic cure rates with explicit denominator,ALL

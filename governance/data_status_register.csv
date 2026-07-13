@@ -1,0 +1,6 @@
+domain,data_status,source,permitted_claim,prohibited_claim,data_layer,source_project,source_version,claim_boundary,as_of_period
+Observed portfolio,Definition,P3/P6,Historical accepted/booked accounts,Outcome metrics matured only,Governance,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence status register,ALL
+Servicing history,Definition,P2,Controls-testing only,Not production delinquency evidence,Governance,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence status register,ALL
+Policy versions,Definition,P6/P2,Common booked population,Not applicant-level approval simulation,Governance,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence status register,ALL
+ECL/stage,Definition,P4,Frozen snapshot,No prior-period trend; Stage 2 proxy,Governance,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence status register,ALL
+Fraud/OpRisk,Definition,P5,Observed benchmark plus synthetic controls,Boundaries preserved,Governance,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence status register,ALL

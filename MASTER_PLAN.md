@@ -1,0 +1,5 @@
+# Project 2 Gold Candidate v2.1.4 Build Plan
+
+> Educational portfolio-monitoring and executive-dashboard framework. Observed credit outcomes are limited to historical matured accepted/booked accounts. Monthly delinquency, roll-rate, cure and vintage servicing are separately labelled synthetic controls-testing evidence. P4 ECL staging remains proxy-based, P5 operations indicators retain their observed/synthetic boundaries, and P6 policy impact remains a historical booked-account simulation. No live servicing platform, regulatory report, production model monitoring, independent validation or organisational sign-off is claimed.
+
+Core methodology, monitoring completeness, technical implementation, evidence hardening and package governance have been rebuilt. The v2.1.4 analytical freeze uses an isolated author build, a frozen pre-review reference bundle, temporal sequencing controls and a later reviewer rebuild comparison. The only open execution gate is a real PBIX/DAX run in Power BI Desktop; the package does not overclaim closure of that gate.

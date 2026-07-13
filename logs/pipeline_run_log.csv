@@ -1,0 +1,2 @@
+script_name,start_time,end_time,duration_seconds,return_code,status,stdout_tail,stderr_tail,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+10_validate_final_outputs.py,2026-07-13T13:58:49,2026-07-13T13:58:56,6.904,0,PASS,,,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Clean pipeline run log with per-script duration,ALL

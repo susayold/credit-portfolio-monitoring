@@ -1,0 +1,6 @@
+model,use_case,status,reason
+Thin baseline scorecard,Portfolio foundation / EL / cutoff / monitoring,Keep,"Large 1.3M-row base, transparent target and economics; ranking is moderate, not production underwriting."
+Expanded WOE formula,Explainability benchmark,Keep as benchmark,"Transparent IV-weighted formula layer; test AUC 0.765, KS 0.400."
+Final clean WOE-logistic scorecard,Clean scorecard candidate for portfolio demonstration,Conditional candidate,"Removes revol_util_band_exp; mort_acc_band_exp; bankruptcy_band_exp; test AUC 0.781, KS 0.418. Portfolio demonstration only because retained variables still require independent stability, fairness/proxy and calibration validation."
+Raw logistic regression challenger,Performance benchmark,Benchmark only,"Best AUC/KS among public-data candidates at AUC 0.793, KS 0.440, but lower explainability and governance readiness."
+Final production model,Automated underwriting / pricing / ECL,Not selected,"Public data is insufficient for production use; final clean still has conditional-review variables and recalibration is diagnostic only. Production would need internal bank data, independent validation, approved calibration and adverse-action review."

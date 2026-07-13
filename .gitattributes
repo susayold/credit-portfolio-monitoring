@@ -1,0 +1,13 @@
+# Preserve the exact bytes of the locked public project packages.
+# This prevents platform-specific CRLF/LF conversion from invalidating
+# SOURCE_PACKAGE_PRESERVATION.csv and the repository evidence manifests.
+* -text
+
+*.gz binary
+*.zip binary
+*.xlsx binary
+*.xlsm binary
+*.joblib binary
+*.png binary
+*.jpg binary
+*.jpeg binary

@@ -1,0 +1,4 @@
+review_priority,alerts,fraud_labels,legitimate_outcomes,non_fraud_alerts,fraud_precision,data_layer,data_status,source_type,claim_boundary
+CRITICAL,152,2,126,150,0.013157894736842105,Synthetic,Derived,Synthetic alert queue and investigation outcomes,Priority-efficiency diagnostic; not observed operations
+HIGH,1527,51,1205,1476,0.03339882121807466,Synthetic,Derived,Synthetic alert queue and investigation outcomes,Priority-efficiency diagnostic; not observed operations
+MEDIUM,3858,427,2777,3431,0.11067910834629342,Synthetic,Derived,Synthetic alert queue and investigation outcomes,Priority-efficiency diagnostic; not observed operations

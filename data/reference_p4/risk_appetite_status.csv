@@ -1,0 +1,9 @@
+metric,actual_value,appetite_rule,status,interpretation
+Weighted ECL vs base budget,0.09288634274774776,<=10% uplift,GREEN,Illustrative base budget
+Stage 2 share,0.48299797390735716,<=15% green; >25% red,RED,Proxy allocation; not observed SICR
+Stage 3 share,0.0,<=5%,NOT ASSESSABLE,No date-aligned Stage 3 indicator
+Downside uplift,0.5385113992604731,<=25% green; >50% red,RED,Scenario assumption
+Severe uplift,1.523357879827242,<=75% green; >125% red,RED,"Tail stress, not weighted"
+Top segment ECL concentration,0.6542148794491662,<=25% green; >40% red,RED,term=60 months
+Missing critical input,0.0,<1% green; >5% red,GREEN,Eligible population after reconciliation
+Stage override rate,0.0,<2% green,NOT ASSESSABLE,No observed override log

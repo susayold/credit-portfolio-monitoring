@@ -1,0 +1,6 @@
+data_requirement,readiness,current_method,status,management_action,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+Observed current EAD,PROXY_ONLY,Contractual-balance reconstruction,RED,Acquire reporting-date servicing balances,Governance,Proxy,P4/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,ECL data-readiness KRI,2018-12
+Relative SICR,NOT_ASSESSABLE,No date-aligned current risk measure,RED,Acquire origination/current PD or DPD history,Governance,Proxy,P4/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,ECL data-readiness KRI,2018-12
+Stage 3,NOT_ASSESSABLE,No valid reporting-date credit-impaired flag,RED,Acquire default/90+ DPD snapshot,Governance,Proxy,P4/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,ECL data-readiness KRI,2018-12
+Workout LGD,NOT_AVAILABLE,FICO-based proxy used,AMBER,Acquire recoveries and workout cash flows,Governance,Proxy,P4/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,ECL data-readiness KRI,2018-12
+Prior-period ECL,NOT_AVAILABLE,No controlled prior snapshot,AMBER,Establish monthly frozen ECL snapshots,Governance,Proxy,P4/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,ECL data-readiness KRI,2018-12

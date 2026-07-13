@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "release": "Project 2 Web-First Release v1.0",
+  "manifest": "validation/web_first_release_manifest.csv",
+  "manifest_sha256": "10DED5876CDFCD41354FE24AFEFA2426F07A870C7AA2BE912E17608C4EF4C1A2",
+  "manifest_scope_exclusions": [
+    "validation/web_first_release_manifest.csv",
+    "validation/web_first_release_manifest_verification.json"
+  ],
+  "source_tree_verification": {
+    "manifest_rows": 265,
+    "missing_manifest_files": [],
+    "hash_mismatches": [],
+    "unlisted_files": [],
+    "status": "PASS"
+  },
+  "clean_extract_verification": {
+    "status": "PASS",
+    "manifest": {
+      "manifest_rows": 265,
+      "missing_manifest_files": [],
+      "hash_mismatches": [],
+      "unlisted_files": [],
+      "status": "PASS"
+    },
+    "missing_required_files": [],
+    "deferred_powerbi_leaks": [],
+    "author_local_path_findings": [],
+    "web_validator": {
+      "command": "python.exe scripts/15_validate_web_dashboard.py",
+      "status": "PASS",
+      "return_code": 0,
+      "output": "PASS: 25/25 web dashboard checks"
+    }
+  },
+  "author_local_path_findings": []
+}

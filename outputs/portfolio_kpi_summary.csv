@@ -1,0 +1,14 @@
+metric,value,unit,population_scope,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+total_accounts,1347681.0,count,ALL,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+matured_accounts,1291521.0,count,MATURED_ONLY,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+immature_accounts,56160.0,count,OUTCOME_NOT_ASSESSABLE,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+total_exposure,19417698475.0,cost_units,ALL,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+average_pd_all_accounts,0.20075803857818608,ratio,ALL,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+average_pd_matured,0.20162506068426292,ratio,MATURED_ONLY,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+observed_bad_accounts_matured,260403.0,count,MATURED_ONLY,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+observed_bad_rate_matured,0.20162506068426297,ratio,MATURED_ONLY,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+expected_loss_proxy,1530037318.7626047,cost_units,ALL_PROXY,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+high_risk_share_grade_d_e,0.49999962899232087,ratio,ALL,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+stage2_proxy_share,0.49999962899232087,ratio,ALL_PROXY,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+policy_approval_rate_25pct,0.8000001484030717,ratio,ALL,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL
+policy_manual_review_rate_25pct,0.19999985159692835,ratio,ALL,Observed,Derived,P3/P6,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe portfolio KPI summary,ALL

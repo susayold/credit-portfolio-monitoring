@@ -1,0 +1,16 @@
+assumption,base_value,sensitivity_value,metric,base_ecl,new_ecl,absolute_change,percentage_change,management_interpretation,materiality_rank
+Future EAD,Constant,Linear run-off,Probability-weighted ECL,118650358.43899179,71687379.35216391,-46962979.086827874,-0.3958098374475246,Simplified repayment sensitivity; not observed cash-flow behaviour,1
+LGD absolute shift,0pp,+10%p,Probability-weighted ECL,118650358.43899179,147811930.24898538,29161571.809993595,0.2457773595769459,Recovery severity sensitivity; not a calibrated downturn LGD,2
+PD scale,1.00x,1.25x,Probability-weighted ECL,118650358.43899179,143912296.5746321,25261938.135640323,0.21291076123153574,Material portfolio-wide PD shock,3
+Watchlist staging threshold,20% origination PD proxy,10% origination PD proxy,Probability-weighted ECL,118650358.43899179,139763038.7923113,21112680.353319526,0.17794029981102288,Extreme proxy sensitivity demonstrating stage-allocation materiality,4
+LGD absolute shift,0pp,+5%p,Probability-weighted ECL,118650358.43899179,133231144.34398858,14580785.904996797,0.12288867978847295,Recovery severity sensitivity; not a calibrated downturn LGD,5
+LGD absolute shift,0pp,-5%p,Probability-weighted ECL,118650358.43899179,104069572.53399499,-14580785.904996797,-0.12288867978847295,Recovery severity sensitivity; not a calibrated downturn LGD,5
+EAD scale,1.00x,1.10x,Probability-weighted ECL,118650358.43899179,130515394.28289096,11865035.843899176,0.09999999999999987,Exposure growth or slower principal reduction,6
+Watchlist staging threshold,20% origination PD proxy,15% origination PD proxy,Probability-weighted ECL,118650358.43899179,129010915.49782677,10360557.058834985,0.08732006540175963,Broadens Stage 2 proxy; not a genuine longitudinal SICR assessment,7
+PD scale,1.00x,1.10x,Probability-weighted ECL,118650358.43899179,128939672.03159383,10289313.592602044,0.08671961659426963,Moderate deterioration in default risk,8
+Downside scenario weight,25%,40% (base reduced to 45%),Probability-weighted ECL,118650358.43899179,127419967.14117765,8769608.70218587,0.07391135448356079,Greater probability assigned to downside conditions,9
+Manual Stage 2 override,0%,Top 5% of Stage 1 by PD,Probability-weighted ECL,118650358.43899179,120449837.54926807,1799479.1102762818,0.01516623408433726,Illustrates governance overlay and review workload,10
+EIR proxy,Observed rate,-2pp,Probability-weighted ECL,118650358.43899179,120347136.91225491,1696778.4732631296,0.014300660323209868,Lower discount rate increases present value,11
+EIR proxy,Observed rate,+2pp,Probability-weighted ECL,118650358.43899179,117021079.54676864,-1629278.8922231495,-0.013731765446464261,Higher discount rate reduces present value; shown as measurement sensitivity,12
+Relative SICR multiplier,3x,2x,Probability-weighted ECL,118650358.43899179,118650358.43899179,0.0,0.0,No primary-layer impact because relative SICR eligibility is 0%; control test only,13
+Severe PD multiplier,2.0x,2.5x,Severe ECL,273951009.5428664,326118512.78597873,52167503.243112326,0.19042639532580163,Tail stress severity,1

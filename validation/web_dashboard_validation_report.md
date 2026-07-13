@@ -1,0 +1,34 @@
+# Web Dashboard Validation Report
+
+- Status: **PASS**
+- Checks passed: **25/25**
+- Scope: static structure, interaction contracts, local links, claim wording and JavaScript syntax.
+- Boundary: visual/pixel validation still requires opening the local HTML in a browser.
+
+| Check | Result | Evidence |
+| --- | --- | --- |
+| WEB-001 Dashboard file exists | PASS | dashboard/index.html |
+| WEB-002 Substantive single-file report | PASS | 38478 characters |
+| WEB-003 Seven governed report views | PASS | executive, portfolio, model, policy, ecl, governance, evidence |
+| WEB-004 Navigation matches report views | PASS | executive, portfolio, model, policy, ecl, governance, evidence |
+| WEB-005 One default active view | PASS | 1 |
+| WEB-006 Unique element identifiers | PASS | 35 ids |
+| WEB-007 Five policy scenarios | PASS | baseline plus four scenarios |
+| WEB-008 Eight governed KRIs | PASS | KRI-001 to KRI-008 |
+| WEB-009 Five risk grades | PASS | A to E |
+| WEB-010 Policy slicer contract | PASS | policy-filter |
+| WEB-011 KRI status slicer contract | PASS | status-filter |
+| WEB-012 Owner slicer contract | PASS | owner-filter |
+| WEB-013 Slicers have labels | PASS | policy-filter, status-filter, owner-filter |
+| WEB-014 Responsive desktop/tablet/mobile breakpoints | PASS | 1120, 760 and 430 px |
+| WEB-015 Observed/synthetic/proxy labels | PASS | three evidence roles |
+| WEB-016 Public claim boundary | PASS | explicit educational/non-production wording |
+| WEB-017 No author-local path in public HTML | PASS | no Windows absolute path |
+| WEB-018 No file URI embedded | PASS | portable relative links |
+| WEB-019 Authoritative dashboard path | PASS | dashboard/index.html |
+| WEB-020 Project landing page points to authoritative report | PASS | OPEN_THIS_FIRST.html |
+| WEB-021 All local dashboard links resolve | PASS | all resolved |
+| WEB-022 Inline JavaScript syntax | PASS | node --check PASS |
+| WEB-023 Governed headline values represented | PASS | 1,347,681, 1,291,521, 673,840, 21.35%, 0.597, 0.127, 108.57M, 118.65M, 131 / 131 |
+| WEB-024 Interactive reset and filter handlers | PASS | filter/reset render functions |
+| WEB-025 Evidence drill contract | PASS | KRI row to source/impact/boundary |

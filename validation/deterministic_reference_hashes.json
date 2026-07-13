@@ -1,0 +1,68 @@
+{
+  "reference_schema_version": 2,
+  "project_version": "Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4",
+  "reference_build_id": "AUTHOR-20260712-195559",
+  "reference_run_mode": "author_reference",
+  "frozen": true,
+  "refresh_allowed_in_reviewer_mode": false,
+  "author_build_start": "2026-07-12T19:48:59.923882",
+  "author_build_end": "2026-07-12T19:55:59.593936",
+  "generated_at": "2026-07-12T19:55:59.593936",
+  "author_pipeline_script_count_before_validation": 10,
+  "author_reference_bundle": "validation/author_reference/AUTHOR-20260712-195559/author_reference_bundle.zip",
+  "author_reference_bundle_sha256": "c2cd1e4a13453b7ab088c9721134e0d60fb6e3f989dc5d5ffac32930341b1de9",
+  "source_manifest_path": "validation/source_manifest.csv",
+  "source_manifest_sha256": "9433e06257f823250014c2f111cadd93cf0a84f43a87d6a5a93f688cbce322d4",
+  "author_code_manifest_path": "validation/author_reference/AUTHOR-20260712-195559/author_code_manifest.json",
+  "author_code_manifest_sha256": "8358df18bad47fb8cb3e31db5d2c0d8e9197a5d2d0f0c5b8a53b3d2084f1318b",
+  "author_code_file_count": 23,
+  "outputs": {
+    "outputs/portfolio_kpi_summary.csv": {
+      "expected_sha256": "f2d44a74427dae9bc8a398309afb6e4f15e15ee8a716cbb429bb9c12c9275b4c",
+      "expected_row_count": 13,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/portfolio_kpi_summary.csv"
+    },
+    "outputs/portfolio_change_summary.csv": {
+      "expected_sha256": "10670cad8f574f9a2b699373a8a8ff179785e060872eb52e9f33ec5302a7fa0f",
+      "expected_row_count": 7,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/portfolio_change_summary.csv"
+    },
+    "outputs/model_monitoring_current_summary.csv": {
+      "expected_sha256": "297867313cc178157b1e9e93e8f5fc759d4312aa0b1738c2db2075db21a17cc8",
+      "expected_row_count": 8,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/model_monitoring_current_summary.csv"
+    },
+    "outputs/model_ks_threshold_detail.csv": {
+      "expected_sha256": "f1d2eed7cdf11175c5d73622179c819511dd4a122e9ab9fbfa5053ba662f51f1",
+      "expected_row_count": 910,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/model_ks_threshold_detail.csv"
+    },
+    "outputs/policy_version_bridge_summary.csv": {
+      "expected_sha256": "2722d2cb82c631b9ddd0eb307c943c3a97d3140d4e32b3f62ccfb88429a3f5a8",
+      "expected_row_count": 5,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/policy_version_bridge_summary.csv"
+    },
+    "outputs/kri_status_summary.csv": {
+      "expected_sha256": "2dece99d685094386ff1f3f200c1e41a7b15bb40bf0b359fb853e698dac6d0ea",
+      "expected_row_count": 8,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/kri_status_summary.csv"
+    },
+    "outputs/management_action_summary.csv": {
+      "expected_sha256": "063cb0ea6092908baedb609c9369c04fa5d5e83862a2062b9b30dd7846a4f304",
+      "expected_row_count": 7,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/management_action_summary.csv"
+    },
+    "outputs/ecl_stress_monitoring_summary.csv": {
+      "expected_sha256": "93796dc90cf9b29e6bef6567694f10aefa1ce74fc8c3fc7f67e49a5d76c8b227",
+      "expected_row_count": 5,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/ecl_stress_monitoring_summary.csv"
+    },
+    "outputs/delinquency_stock_flow_summary.csv": {
+      "expected_sha256": "9dc42a92e7e8e8b601947c0f83d2ae3a7a7ffd8d99562db3624f31398b2809a0",
+      "expected_row_count": 83,
+      "author_artifact_path": "validation/author_reference/AUTHOR-20260712-195559/outputs/delinquency_stock_flow_summary.csv"
+    }
+  },
+  "required_temporal_rule": "reference.generated_at must be earlier than reviewer.pipeline_start",
+  "exclusion_note": "Logs, manifests, screenshots, ZIPs and timestamp-bearing runtime evidence are excluded from deterministic output comparison; the author evidence bundle and its hash are retained separately."
+}

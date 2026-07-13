@@ -1,0 +1,10 @@
+domain,metric,value,source,evidence_status,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+Fraud observed benchmark,total_transactions,284807.0,P5 observed PCA benchmark,Observed,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Fraud observed benchmark,fraud_transactions,492.0,P5 observed PCA benchmark,Observed,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Fraud observed benchmark,fraud_rate,0.00172748563062,P5 observed PCA benchmark,Observed,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Fraud observed benchmark,fraud_amount,60127.97,P5 observed PCA benchmark,Observed,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Fraud observed benchmark,fraud_amount_rate,0.0023895779399538,P5 observed PCA benchmark,Observed,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Operational controls,critical_queue_alerts,152.0,P5 synthetic controls,Synthetic,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Operational controls,critical_queue_precision,0.0131578947368421,P5 synthetic controls,Synthetic,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Operational risk,open_incidents,6.0,P5 synthetic incident register,Synthetic,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL
+Operational risk,net_loss_proxy,318200.0,P5 synthetic incident register,Synthetic,Mixed,Derived,P5,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,P5 observed and synthetic boundaries retained,ALL

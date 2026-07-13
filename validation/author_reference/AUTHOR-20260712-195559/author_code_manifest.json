@@ -1,0 +1,119 @@
+{
+  "files": [
+    {
+      "relative_path": "scripts/00_audit_existing_project.py",
+      "expected_sha256": "67b45c9b148c31f386e7f9bead1222da605b5b201c60aa92720c5f7cfa283092",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/00_audit_existing_project.py"
+    },
+    {
+      "relative_path": "scripts/01_load_validate_sources.py",
+      "expected_sha256": "bf9c03d99061e5d8c9f3375f753922fcb94c7d4369ae6b14a9311bef923d7be0",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/01_load_validate_sources.py"
+    },
+    {
+      "relative_path": "scripts/02_build_observed_monitoring_base.py",
+      "expected_sha256": "3a700e79810ca9082deabcbfa6edc93eba1d8bc0a3c1430dba97c8a243778d13",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/02_build_observed_monitoring_base.py"
+    },
+    {
+      "relative_path": "scripts/03_generate_synthetic_monthly_snapshots.py",
+      "expected_sha256": "9acdd174b89c69e52591471c116eebd532308a1509dac2df1acefa31c3699d56",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/03_generate_synthetic_monthly_snapshots.py"
+    },
+    {
+      "relative_path": "scripts/04_build_delinquency_and_vintage_metrics.py",
+      "expected_sha256": "f7fa3e3685e3f9681d90894b936732a4345e1bf0a3e5678429058f6d0f3ebe32",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/04_build_delinquency_and_vintage_metrics.py"
+    },
+    {
+      "relative_path": "scripts/05_build_model_monitoring.py",
+      "expected_sha256": "6b72e4eef989b2bcbf41867bb4f77aa690143c38071e349e74477efbbc058764",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/05_build_model_monitoring.py"
+    },
+    {
+      "relative_path": "scripts/06_build_policy_monitoring.py",
+      "expected_sha256": "d845df73f6b1e9698f5e425446c11b43e2243f80ce8948ead480a614eb749b1d",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/06_build_policy_monitoring.py"
+    },
+    {
+      "relative_path": "scripts/07_build_ecl_enterprise_risk_monitoring.py",
+      "expected_sha256": "4228ec7e3d7ab26e452c94ccd837626bebd4c3a2bafb98676799b071f9fde26d",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/07_build_ecl_enterprise_risk_monitoring.py"
+    },
+    {
+      "relative_path": "scripts/08_build_ews_kri_actions.py",
+      "expected_sha256": "c949ddbbac907373bb0476a6d3361e13af2ca30fb7372b8e77b027be99daa720",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/08_build_ews_kri_actions.py"
+    },
+    {
+      "relative_path": "scripts/09_generate_excel_reports_powerbi_pack.py",
+      "expected_sha256": "c2b78cc06086ff3e4ec649189b178c958d5318b34e1e104f9870a65918becfd0",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/09_generate_excel_reports_powerbi_pack.py"
+    },
+    {
+      "relative_path": "scripts/10_validate_final_outputs.py",
+      "expected_sha256": "4c0f74afa1a555042fcfef925df568a911aef45899eeab7b1b35424cb04b09dc",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/10_validate_final_outputs.py"
+    },
+    {
+      "relative_path": "scripts/compare_reviewer_rebuild.py",
+      "expected_sha256": "da10d2b6c84a9d4a7a943ff40877ed990129334116e3d46c98bbdcfc21d8e3aa",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/compare_reviewer_rebuild.py"
+    },
+    {
+      "relative_path": "scripts/project2_gold_common.py",
+      "expected_sha256": "17a7dd7e155d2d76e9133d4dbcb0429b6a994dbbd9e158d955d43b79c1744ec4",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/project2_gold_common.py"
+    },
+    {
+      "relative_path": "scripts/project2_gold_monitoring.py",
+      "expected_sha256": "4e7b6d42b1a4e4679dda952628c901466896e31ab6c3b9a508626ab15776f695",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/project2_gold_monitoring.py"
+    },
+    {
+      "relative_path": "scripts/project2_gold_outputs.py",
+      "expected_sha256": "b810a4dd66b434b519b2409d59416adb41fcfa44529cd953cc4f96399be5e66e",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/project2_gold_outputs.py"
+    },
+    {
+      "relative_path": "scripts/project2_gold_validation.py",
+      "expected_sha256": "4855008d2a133f25bd3a2d059f015028981e41f043123162db8a4651bc215c76",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/project2_gold_validation.py"
+    },
+    {
+      "relative_path": "scripts/reviewer_quick_validate.py",
+      "expected_sha256": "2458ad8525c6f12c6a9a260d6ba7b261045203d798a8ad31c693a56e3f3625cd",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/reviewer_quick_validate.py"
+    },
+    {
+      "relative_path": "scripts/run_full_pipeline.py",
+      "expected_sha256": "26269e71b9acb897d8286c2c6fba01bde8b6aeaf7bd04bda4c12d14014286dab",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/run_full_pipeline.py"
+    },
+    {
+      "relative_path": "scripts/run_reviewer_rebuild_with_evidence.py",
+      "expected_sha256": "698348eab11f3d23c741843f4439b444c54d24b200fcf41b16e2c1470e5f7dfa",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/run_reviewer_rebuild_with_evidence.py"
+    },
+    {
+      "relative_path": "scripts/run_two_phase_reproducibility.py",
+      "expected_sha256": "017cd942d963cc293bb648f88a60d5ce5254d58e0b2333846f7c9021941cf874",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/scripts/run_two_phase_reproducibility.py"
+    },
+    {
+      "relative_path": "requirements-core.txt",
+      "expected_sha256": "c9dfdab59fad2c930e20fc77ae82a36c5ad21f1c069f917295d382edfa86a0cb",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/requirements-core.txt"
+    },
+    {
+      "relative_path": "requirements.txt",
+      "expected_sha256": "ee3dfdc3376a26b6ab2ef5d49008b290865a0b8fce02d1b3110c8c17fc61238d",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/requirements.txt"
+    },
+    {
+      "relative_path": "requirements-windows-excel.txt",
+      "expected_sha256": "3499b7897db247defbc564e837564cef4f05e9d18cd54fac0d2fef0aba2dcab7",
+      "frozen_code_path": "validation/author_reference/AUTHOR-20260712-195559/code/requirements-windows-excel.txt"
+    }
+  ]
+}

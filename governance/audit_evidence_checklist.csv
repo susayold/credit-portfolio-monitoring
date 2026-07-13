@@ -1,0 +1,11 @@
+audit_id,evidence_area,owner,evidence_status,independent_signoff_performed,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+AUD-001,Source hashes and versions,Data Owner,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-002,Maturity denominators,Portfolio Risk,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-003,Stock-flow reconciliation,Collections,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-004,Model eligibility and drift,Model Risk,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-005,Policy bridge,Credit Policy,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-006,ECL limitations,Finance Risk,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-007,Alert-action linkage,Risk Committee,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-008,SQL execution,Engineering,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-009,Excel formula controls,Finance Controls,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL
+AUD-010,PBIX publication,BI Owner,EVIDENCE_PREPARED,NO,Governance,Checklist,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Evidence prepared; no independent sign-off,ALL

@@ -1,0 +1,8 @@
+relative_path,sample_rows_read,columns,column_list
+powerbi/visual_mapping.csv,17,10,"page, visual_id, visual_type, title, table, fields, measures, filters, formatting, business_purpose"
+reports/portfolio_kpi_summary.csv,16,2,"metric, value"
+reports/segment_action_log.csv,25,10,"application_month, fico_band, purpose, home_ownership, applications, funded_amount, default_rate, risk_appetite_status, recommended_owner, recommended_action"
+reports/top_risk_segments.csv,25,14,"application_month, fico_band, purpose, home_ownership, applications, funded_amount, default_rate, avg_fico, avg_dti, high_dti_share, funded_amount_share, risk_appetite_status, cohort_maturity_status, risk_priority_score"
+data/processed/fico_band_summary.csv,6,4,"fico_band, applications, funded_amount, default_rate"
+data/processed/monthly_portfolio_enriched.csv,139,19,"application_month, applications, funded_amount, avg_loan_amount, avg_fico, avg_dti, avg_income, default_rate, high_dti_share, high_amount_share, funded_amount_mom_growth, default_rate_3m_avg, year, default_applications, risk_appetite_status, funded_amount_usd_m, avg_ticket_k, portfolio_phase, cohort_maturity_status"
+data/processed/segment_risk_enriched.csv,500,18,"application_month, fico_band, purpose, home_ownership, applications, funded_amount, default_rate, avg_fico, avg_dti, high_dti_share, funded_amount_share, risk_contribution_score, year, default_applications, risk_appetite_status, material_segment_flag, risk_priority_score, cohort_maturity_status"

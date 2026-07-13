@@ -1,0 +1,9 @@
+sequence,bridge_step,ecl_change,running_ecl,methodology_note,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+0,Opening ECL - prior assumption set,0.0,47608878.82880977,Same frozen population; prior proxy assumptions,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12
+1,Population/scope adjustment,0.0,47608878.82880977,No population change in same-population bridge,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12
+2,Staging methodology change,9635119.718032455,57243998.54684223,Watchlist proxy threshold 25% to current hierarchy,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12
+3,PD parameter change,6025041.58895193,63269040.13579416,Prior 0.90x PD scale to current 1.00x,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12
+4,LGD parameter change,10735609.41925671,74004649.55505086,Flat 35% LGD to loan-level P3/P6 proxy,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12
+5,EAD projection change,53909834.04640454,127914483.6014554,Linear future run-off to constant current EAD,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12
+6,Discounting change,-16621101.210068377,111293382.39138705,No discounting to contractual-rate EIR proxy,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12
+7,Scenario weight change,7356976.047604755,118650358.4389918,20/65/15 to 15/60/25,Observed,Proxy,P4,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Same-population assumption-change attribution,2018-12

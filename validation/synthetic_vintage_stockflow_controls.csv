@@ -1,0 +1,6 @@
+control,actual_value,expected_condition,status
+origination_vintages,48.0,>1,PASS
+snapshot_months,83.0,>36 expected from staggered vintages,PASS
+month_mob_pairs,1728.0,>36,PASS
+term_60_balance_at_mob36,95781910.375,>0,PASS
+stock_flow_max_abs_bridge_difference,0.0,=0,PASS

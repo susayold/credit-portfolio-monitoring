@@ -1,0 +1,3 @@
+model_or_engine,permitted_use,status,restriction,monitoring,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+P3 scorecard/PD,Monitoring only,Frozen,No retraining in P2,AUC/KS/calibration/PSI,Governance,Definition,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Model-use boundary,ALL
+Synthetic servicing engine,Controls testing,Scenario,Not predictive model,Bridge and transition controls,Governance,Definition,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Model-use boundary,ALL

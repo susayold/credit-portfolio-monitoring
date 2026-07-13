@@ -1,0 +1,102 @@
+[
+  {
+    "script_name": "00_audit_existing_project.py",
+    "start_time": "2026-07-12T19:48:59.923882",
+    "end_time": "2026-07-12T19:49:00.893615",
+    "duration_seconds": 0.97,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase A0 audit PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "01_load_validate_sources.py",
+    "start_time": "2026-07-12T19:49:00.894402",
+    "end_time": "2026-07-12T19:49:15.854682",
+    "duration_seconds": 14.96,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 0/1 source validation PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "02_build_observed_monitoring_base.py",
+    "start_time": "2026-07-12T19:49:15.856181",
+    "end_time": "2026-07-12T19:49:58.503728",
+    "duration_seconds": 42.648,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 1 observed monitoring base PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "03_generate_synthetic_monthly_snapshots.py",
+    "start_time": "2026-07-12T19:49:58.504185",
+    "end_time": "2026-07-12T19:51:46.586247",
+    "duration_seconds": 108.082,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 2 synthetic monthly snapshots PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "04_build_delinquency_and_vintage_metrics.py",
+    "start_time": "2026-07-12T19:51:46.586768",
+    "end_time": "2026-07-12T19:52:06.971926",
+    "duration_seconds": 20.385,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 3 delinquency/vintage metrics PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "05_build_model_monitoring.py",
+    "start_time": "2026-07-12T19:52:06.972405",
+    "end_time": "2026-07-12T19:53:57.491158",
+    "duration_seconds": 110.519,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 4 model monitoring PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "06_build_policy_monitoring.py",
+    "start_time": "2026-07-12T19:53:57.491637",
+    "end_time": "2026-07-12T19:54:36.570120",
+    "duration_seconds": 39.078,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 5 policy monitoring PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "07_build_ecl_enterprise_risk_monitoring.py",
+    "start_time": "2026-07-12T19:54:36.570608",
+    "end_time": "2026-07-12T19:54:40.366524",
+    "duration_seconds": 3.796,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 6 ECL/enterprise risk monitoring PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "08_build_ews_kri_actions.py",
+    "start_time": "2026-07-12T19:54:40.367038",
+    "end_time": "2026-07-12T19:55:03.797070",
+    "duration_seconds": 23.43,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 7 EWS/KRI/actions PASS",
+    "stderr_tail": ""
+  },
+  {
+    "script_name": "09_generate_excel_reports_powerbi_pack.py",
+    "start_time": "2026-07-12T19:55:03.797717",
+    "end_time": "2026-07-12T19:55:50.116770",
+    "duration_seconds": 46.319,
+    "return_code": 0,
+    "status": "PASS",
+    "stdout_tail": "Phase 8 Excel/reports/Power BI pack PASS",
+    "stderr_tail": ""
+  }
+]

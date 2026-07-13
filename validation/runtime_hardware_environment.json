@@ -1,0 +1,15 @@
+{
+  "operating_system": "Windows-10-10.0.19045-SP0",
+  "python_version": "3.14.2",
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "machine": "AMD64",
+  "cpu_count": 6,
+  "memory_gb": 23.94,
+  "working_directory": "<PROJECT_ROOT>",
+  "pipeline_script_count": 1,
+  "pipeline_total_duration_seconds": 6.904,
+  "pipeline_status": "PASS",
+  "pipeline_start": "2026-07-13T13:58:49",
+  "pipeline_end": "2026-07-13T13:58:56",
+  "execution_date": "2026-07-13T13:58:56"
+}

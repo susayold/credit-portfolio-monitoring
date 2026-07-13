@@ -1,0 +1,6 @@
+check_name,status,actual_value,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+observed_account_key_unique,PASS,5000,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,SQLite execution on packaged 5k observed and 50k synthetic reviewer samples,ALL
+synthetic_account_month_key_unique,PASS,50000,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,SQLite execution on packaged 5k observed and 50k synthetic reviewer samples,ALL
+pd_range,PASS,0,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,SQLite execution on packaged 5k observed and 50k synthetic reviewer samples,ALL
+immature_bad_rate_is_null,PASS,0,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,SQLite execution on packaged 5k observed and 50k synthetic reviewer samples,ALL
+required_sql_marts_created,PASS,9,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,SQLite execution on packaged 5k observed and 50k synthetic reviewer samples,ALL

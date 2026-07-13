@@ -1,0 +1,15 @@
+field,requirement,business_definition,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+account_id,Required,Synthetic servicing account identifier,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+origination_vintage,Required,Distinct origination cohort,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+snapshot_month,Required,Synthetic monthly snapshot,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+months_on_book,Required,MOB 1-36 monitoring horizon,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+term_months,Required,Documented 36/60-month synthetic term,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+beginning_balance,Required,Beginning synthetic balance,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+ending_balance,Required,Term-aware ending synthetic balance,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+beginning_dpd_bucket,Required,Beginning delinquency stock,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+dpd_bucket,Required,Ending delinquency/default/closed state,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+new_delinquency_inflow_flag,Required,Current-to-delinquent flow,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+cure_flag,Required,Delinquent-to-current flow,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+new_default_flag,Required,New default flow; distinct from stock,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+default_stock_flag,Required,Ending default stock,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL
+closure_flow_flag,Required,New closure flow,Synthetic,Contract,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Controls-testing only; not observed servicing history,ALL

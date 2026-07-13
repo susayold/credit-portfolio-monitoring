@@ -1,0 +1,14 @@
+{
+  "status": "HISTORICAL_BASELINE_PASS_AT_FREEZE",
+  "manifest": "validation/analytical_baseline_release_manifest_v2_1_4.csv",
+  "verification_scope": "Historical v2.1.4 baseline record; not the current Web-First release verifier",
+  "manifested_file_count": 275,
+  "controlled_exclusions": [
+    "final ZIP binary outside project root",
+    "validation/analytical_baseline_release_verification_v2_1_4.json",
+    "validation/analytical_baseline_release_manifest_v2_1_4.csv"
+  ],
+  "missing_files": [],
+  "hash_mismatches": [],
+  "unlisted_uncontrolled_files": []
+}

@@ -1,0 +1,4 @@
+population,accounts,observed_bad_accounts,exposure,outcome_scope,status,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+Total accepted/booked base,1347681,260403.0,19417698475.0,ALL,PASS,Observed,Derived,P3/P6/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe population reconciliation,ALL
+Matured observed outcome,1291521,260403.0,18582489425.0,MATURED_ONLY,PASS,Observed,Derived,P3/P6/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe population reconciliation,ALL
+Immature monitor-only,56160,,835209050.0,OUTCOME_NOT_ASSESSABLE,PASS,Observed,Derived,P3/P6/P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Maturity-safe population reconciliation,ALL

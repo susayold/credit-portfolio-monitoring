@@ -1,0 +1,8 @@
+from_bucket,transition_count,Current,1-29,30-59,60-89,90+,Default,Closed,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+Current,1604583,0.9676146388189331,0.015980475924274408,0.0,0.0,0.0,0.0,0.016404885256792574,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic term-aware roll-rate matrix,ALL
+1-29,44427,0.2802800099038873,0.4490737614513697,0.2661219528665001,0.0,0.0,0.0,0.00452427577824296,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic term-aware roll-rate matrix,ALL
+30-59,31879,0.11484049060510054,0.0,0.5412340412183569,0.34342357037548227,0.0,0.0,0.0005018978010602591,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic term-aware roll-rate matrix,ALL
+60-89,29037,0.0,0.0,0.13141853497262113,0.44749801976788234,0.4210834452594965,0.0,0.0,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic term-aware roll-rate matrix,ALL
+90+,11815,0.0,0.0,0.0,0.5126534066864156,0.0,0.48734659331358443,0.0,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic term-aware roll-rate matrix,ALL
+Default,78259,0.0,0.0,0.0,0.0,0.0,1.0,0.0,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic term-aware roll-rate matrix,ALL
+Closed,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Synthetic,Synthetic,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Synthetic term-aware roll-rate matrix,ALL

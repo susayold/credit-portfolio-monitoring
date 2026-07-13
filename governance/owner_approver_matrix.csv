@@ -1,0 +1,7 @@
+monitoring_domain,owner,approver,independent_review_role,actual_signoff,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+Portfolio quality,Portfolio Risk,Risk Committee,Proposed Model Validation/Internal Audit,NO,Governance,Plan,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,No organisational sign-off claimed,ALL
+Delinquency controls,Collections,Portfolio Risk,Proposed Model Validation/Internal Audit,NO,Governance,Plan,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,No organisational sign-off claimed,ALL
+Model monitoring,Model Owner,Model Risk,Proposed Model Validation/Internal Audit,NO,Governance,Plan,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,No organisational sign-off claimed,ALL
+Policy monitoring,Credit Policy,Portfolio Risk,Proposed Model Validation/Internal Audit,NO,Governance,Plan,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,No organisational sign-off claimed,ALL
+ECL/stress,Finance Risk,Credit Risk,Proposed Model Validation/Internal Audit,NO,Governance,Plan,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,No organisational sign-off claimed,ALL
+EWS/actions,Risk Owners,Risk Committee,Proposed Model Validation/Internal Audit,NO,Governance,Plan,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,No organisational sign-off claimed,ALL

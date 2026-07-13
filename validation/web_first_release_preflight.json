@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "release": "Project 2 Web-First Release v1.0",
+  "analytical_baseline": "v2.1.4 reviewer verified",
+  "web_validator": {
+    "command": "python.exe scripts/15_validate_web_dashboard.py",
+    "status": "PASS",
+    "return_code": 0,
+    "output": "PASS: 25/25 web dashboard checks"
+  },
+  "control_counts": {
+    "analytical": {
+      "passed": 131,
+      "total": 131,
+      "status": "PASS"
+    },
+    "uat": {
+      "passed": 56,
+      "total": 56,
+      "status": "PASS"
+    },
+    "sit": {
+      "passed": 25,
+      "total": 25,
+      "status": "PASS"
+    },
+    "negative": {
+      "passed": 25,
+      "total": 25,
+      "status": "PASS"
+    },
+    "excel_reconciliation": {
+      "passed": 13,
+      "total": 13,
+      "status": "PASS"
+    },
+    "web": {
+      "passed": 25,
+      "total": 25,
+      "status": "PASS"
+    }
+  },
+  "author_local_path_findings": [],
+  "excluded_prefixes": [
+    "tools/",
+    "powerbi/",
+    "archive/superseded/",
+    "archive/deferred_powerbi/"
+  ],
+  "claim_boundary": "Power BI is intentionally excluded from the public Web-First release."
+}

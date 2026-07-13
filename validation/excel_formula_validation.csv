@@ -1,0 +1,6 @@
+check_id,control,actual_value,expected_value,status,evidence,data_layer,data_status,source_project,source_version,claim_boundary,as_of_period
+XLS-001,Formula count greater than 50,140,>50,PASS,Workbook formula scan,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Formula-driven workbook validation,ALL
+XLS-002,Excel calculation completed,PASS,PASS,PASS,Microsoft Excel COM full calculation completed,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Formula-driven workbook validation,ALL
+XLS-003,No cached formula errors,0,0,PASS,[],Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Formula-driven workbook validation,ALL
+XLS-004,All KPI formulas reconcile,13,13,PASS,testing/excel_cached_value_reconciliation.csv,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Formula-driven workbook validation,ALL
+XLS-005,No external links,0,0,PASS,openpyxl external-link scan,Technical,Executed,P2,Project2_CreditPortfolioMonitoring_GoldCandidate_v2_1_4,Formula-driven workbook validation,ALL
