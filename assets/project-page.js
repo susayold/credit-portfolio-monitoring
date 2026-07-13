@@ -26,8 +26,8 @@
     <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Financial Risk Analytics Portfolio home">
-        <span class="brand-mark">FR</span>
-        <span class="brand-copy"><strong>Financial Risk Analytics</strong><small>Standalone project case study</small></span>
+        <span class="brand-mark" data-i18n-ignore>FR</span>
+        <span class="brand-copy"><strong>Financial Risk Analytics</strong><small>Completed risk analytics project</small></span>
       </a>
       <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-label="Open navigation">
         <span></span><span></span><span></span>
@@ -39,7 +39,7 @@
         <a href="#results">Results</a>
         <a href="#validation">Validation</a>
         <a href="#artifacts">Artifacts</a>
-        <a href="OPEN_THIS_FIRST.html">Full package</a>
+        <a href="#artifacts">Project files</a>
       </nav>
     </header>`;
 
@@ -62,7 +62,7 @@
         <h3>${escapeHtml(formula.name)}</h3>
         <code>${escapeHtml(formula.expression)}</code>
         <p>${escapeHtml(formula.meaning)}</p>
-        <span class="formula-use">Decision use: ${escapeHtml(formula.use)}</span>
+        <span class="formula-use"><strong class="inline-label">Decision use:</strong> ${escapeHtml(formula.use)}</span>
       </article>`;
   }).join("");
 
@@ -73,7 +73,7 @@
         <div class="process-copy">
           <h3>${escapeHtml(step.title)}</h3>
           <p>${escapeHtml(step.text)}</p>
-          <small>Evidence: ${escapeHtml(step.evidence)}</small>
+          <small><strong class="inline-label">Evidence:</strong> ${escapeHtml(step.evidence)}</small>
         </div>
       </article>`;
   }).join("");
@@ -129,7 +129,7 @@
       <li>
         <a href="${escapeHtml(artifact.href)}">
           <span><strong>${escapeHtml(artifact.label)}</strong><small>${escapeHtml(artifact.detail)}</small></span>
-          <span class="artifact-type">${escapeHtml(artifact.type)}</span>
+          <span class="artifact-type" data-i18n-ignore>${escapeHtml(artifact.type)}</span>
         </a>
       </li>`;
   }).join("") : '<li><span class="muted">No validated public artifacts are claimed for this deferred or unfinished project.</span></li>';
@@ -173,7 +173,6 @@
     <main id="main-content">
       <section class="project-hero" style="--project-accent:${escapeHtml(project.accent)}">
         <div class="container project-hero-grid">
-          <div class="hero-number" aria-hidden="true">${escapeHtml(project.number)}</div>
           <div>
             <div class="project-kicker">
               <p class="eyebrow">${escapeHtml(project.category)}</p>
@@ -271,7 +270,7 @@
       </div>
       <section class="project-next" style="--project-accent:${escapeHtml(project.accent)}">
         <div class="container project-next-inner">
-          <div><p class="eyebrow" style="color:rgba(255,255,255,.72)">Project evidence</p><h2>Review the supporting artifacts</h2><p>This repository is a standalone case study. Start with the HTML page, then inspect the evidence files and README.</p></div>
+          <div><p class="eyebrow" style="color:rgba(255,255,255,.72)">Project evidence</p><h2>Review the complete analytical evidence</h2><p>This repository contains the completed analytical implementation. Start with the website, then inspect the methodology, validation evidence and source artifacts.</p></div>
           <a class="button" href="#artifacts">Open evidence pack</a>
         </div>
       </section>
@@ -279,8 +278,14 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <div><strong>Financial Risk Analytics Portfolio</strong><p>Independent case studies built on a governed data pool. Educational evidence with explicit production and regulatory claim boundaries.</p></div>
-        <div class="footer-links"><a href="#problem">Problem</a><a href="#results">Results</a><a href="#artifacts">Evidence</a><a href="README.md">README</a></div>
+        <div class="footer-summary"><strong>Financial Risk Analytics Portfolio</strong><p>Independent analytical projects built on a governed data pool, with explicit evidence, assumptions and production-use boundaries.</p></div>
+        <address class="footer-contact" id="contact">
+          <span class="footer-contact-label">Contact</span>
+          <strong data-i18n-ignore>Nguyễn Phạm Khôi Nguyên</strong>
+          <a data-i18n-ignore href="tel:+84865385817">0865385817</a>
+          <a data-i18n-ignore href="mailto:nguyen28052005@gmail.com">nguyen28052005@gmail.com</a>
+        </address>
+        <nav class="footer-links" aria-label="Footer navigation"><a href="#problem">Problem</a><a href="#results">Results</a><a href="#artifacts">Evidence</a><a href="README.md">README</a></nav>
       </div>
     </footer>
 

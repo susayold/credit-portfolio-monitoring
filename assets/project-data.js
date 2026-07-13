@@ -1,7 +1,7 @@
 window.PORTFOLIO_PROJECTS = {
   "2": {
     number: "02",
-    status: "Web-First Release v1.0 complete; analytical baseline v2.1.4 reviewer verified",
+    status: "Completed | Evidence and controls verified",
     statusClass: "complete",
     accent: "#2559a7",
     category: "Portfolio Risk & Monitoring",
@@ -22,21 +22,21 @@ window.PORTFOLIO_PROJECTS = {
       output: "A governed monitoring pack with current/prior/change metrics, source-specific EWS impacts, owner/action closure logic, executable SQL, formula-driven Excel and a seven-view authoritative browser dashboard."
     },
     dataLayers: [
-      { meta: "Observed", title: "Historical booked-account base", text: "1,347,681 accounts with frozen PD, score, grade, exposure, bad flag and policy proxies from P3/P6." },
+      { meta: "Observed", title: "Historical booked-account base", text: "1,347,681 accounts with frozen PD, score, grade, exposure, bad flag and policy proxies from the Credit Risk Decision Engine and Risk System Rule Implementation projects." },
       { meta: "Synthetic controls", title: "Term-aware monthly servicing", text: "50,000 sampled accounts create 1.8M account-month rows across 48 vintages, 36/60-month terms and MOB 1-36 for DPD, roll-rate, cure and stock-flow testing only." },
-      { meta: "Frozen upstream", title: "ECL and enterprise context", text: "P4 supplies Stage 2/ECL stress indicators; P5 supplies fraud and operational-risk indicators without reopening either methodology." },
+      { meta: "Frozen upstream", title: "ECL and enterprise context", text: "The IFRS 9-Style ECL & Stress Testing project supplies Stage 2 and ECL stress indicators; the Fraud Detection, Controls & Operational Risk project supplies fraud and operational-risk indicators. Their methodologies remain unchanged." },
       { meta: "Governance", title: "Contracts and ownership", text: "Input contracts, KPI dictionary, KRI register, appetite rules, actions, exceptions and audit evidence define how monitoring is used." }
     ],
     formulas: [
       { name: "Observed bad rate", expression: "Bad Rate = Matured bad accounts / Matured accounts", meaning: "Restricts performance to accounts with sufficient outcome history.", use: "Portfolio quality and risk-appetite monitoring." },
       { name: "Expected loss proxy", expression: "Expected Loss = SUM(PD x LGD x EAD)", meaning: "Aggregates account-level credit risk into monetary exposure.", use: "Connects portfolio quality to financial materiality." },
       { name: "Population Stability Index", expression: "PSI = SUM((Actual% - Expected%) x ln(Actual% / Expected%))", meaning: "Measures movement in score or feature distributions.", use: "Triggers model review when drift breaches thresholds." },
-      { name: "Roll rate", expression: "Roll i->j = Accounts moving i to j / Accounts in bucket i at t", meaning: "Quantifies migration between delinquency states.", use: "Synthetic controls-testing demonstration only in this project." },
+      { name: "Roll rate", expression: "Roll i->j = Accounts moving i to j / Accounts in bucket i at t", meaning: "Quantifies migration between delinquency states.", use: "Synthetic controls-testing implementation only in this project." },
       { name: "KRI status", expression: "Status = GREEN / AMBER / RED by metric direction and appetite threshold", meaning: "Turns measures into governed escalation signals.", use: "Routes actions to named owners." }
     ],
     process: [
       { title: "Lock scope and claim boundaries", text: "Define observed versus synthetic use, monitoring period, metric ownership and downstream dependencies before dashboard design.", evidence: "Phase 0 methodology gate" },
-      { title: "Build observed monitoring base", text: "Load frozen P3/P6 account evidence and reconcile account, exposure, PD and outcome fields.", evidence: "1,347,681 accounts" },
+      { title: "Build observed monitoring base", text: "Load frozen account evidence from the Credit Risk Decision Engine and Risk System Rule Implementation projects, then reconcile account, exposure, PD and outcome fields.", evidence: "1,347,681 accounts" },
       { title: "Generate servicing control layer", text: "Create deterministic, term-aware monthly DPD states across multiple origination vintages; separate default stock from new-default flow and reconcile every stock-flow bridge.", evidence: "1.8M account-month rows; zero bridge gap" },
       { title: "Calculate monitoring marts", text: "Produce matured-only portfolio/model metrics, period-level feature drift, policy-version bridges, ECL overlays and concentration views.", evidence: "Latest eligible 2017-12 vs 2017-11" },
       { title: "Convert breaches into action", text: "Evaluate eight KRIs with source-specific affected population, impact, owner, decision, acceptance criteria and closure evidence.", evidence: "6 Red, 1 Amber, 7 actions" },
@@ -75,7 +75,7 @@ window.PORTFOLIO_PROJECTS = {
     ],
     alerts: [
       { tone: "red", text: "Latest observed bad rate increased 47 bps to 21.35%; ranking weakened and PSI rose to 0.127, requiring portfolio and model-risk diagnosis." },
-      { tone: "red", text: "Stage 2 proxy share is materially elevated; interpretation must retain Project 4's broad proxy limitation." },
+      { tone: "red", text: "Stage 2 proxy share is materially elevated; interpretation must retain the broad proxy limitation documented in the IFRS 9-Style ECL & Stress Testing project." },
       { tone: "amber", text: "The 20% policy candidate reduces straight-through auto-approved EL by 49.96% but fails approval and manual-review capacity constraints; this is routing impact, not realised loss reduction." },
       { tone: "info", text: "Synthetic DPD, roll-rate and cure outputs demonstrate controls and dashboard behavior, not actual servicing performance." }
     ],
@@ -85,7 +85,7 @@ window.PORTFOLIO_PROJECTS = {
     },
     charts: [],
     validation: {
-      headline: "Web-First Release v1.0 is recruiter-ready on the reviewer-verified v2.1.4 analytical baseline.",
+      headline: "The analytical implementation, interactive dashboard and clean-package controls passed validation; evidence scope and limitations remain explicit.",
       cards: [
         { title: "Validation", text: "131 of 131 author automated checks passed, including 12 substantive reconciliations." },
         { title: "Manifest", text: "253 release-manifested files passed size, SHA-256, unlisted-file and clean-extract controls." },
@@ -95,8 +95,8 @@ window.PORTFOLIO_PROJECTS = {
     },
     limitations: [
       "Observed layer is historical accepted/booked-account monitoring, not a live servicing platform.",
-      "Monthly DPD, roll-rate and cure metrics are synthetic controls-testing demonstrations.",
-      "P3 model, P4 ECL and P5 enterprise indicators are frozen upstream outputs; Project 2 does not retrain or independently validate them.",
+      "Monthly DPD, roll-rate and cure metrics are synthetic controls-testing evidence and do not represent observed servicing outcomes.",
+      "The Credit Risk Decision Engine model, IFRS 9-Style ECL & Stress Testing outputs and Fraud Detection, Controls & Operational Risk indicators are frozen upstream evidence; this monitoring project does not retrain or independently validate them.",
       "No regulatory report, independent validation or organisational sign-off is claimed.",
       "Power BI implementation is intentionally outside the Web-First public release scope."
     ],
@@ -106,14 +106,13 @@ window.PORTFOLIO_PROJECTS = {
       { title: "Technical control", text: "I can implement executable SQL, formula-driven Excel, browser reporting and multi-surface reconciliation with explicit evidence boundaries." }
     ],
     artifacts: [
-      { label: "Open complete FINAL package", type: "HTML", href: "OPEN_THIS_FIRST.html", detail: "Original reports, scripts, data, models and validation evidence" },
       { label: "Open web command center", type: "WEB", href: "dashboards/project-2/index.html", detail: "Authoritative seven-view interactive risk monitoring" },
-      { label: "Project 2 README", type: "MD", href: "evidence/project-2/README.md", detail: "Scope, evidence and claim boundary" },
+      { label: "Credit Portfolio Monitoring README", type: "MD", href: "evidence/project-2/README.md", detail: "Scope, evidence and claim boundary" },
       { label: "Risk committee memo", type: "MD", href: "evidence/project-2/risk_committee_monitoring_memo.md", detail: "Breaches and management actions" },
       { label: "Validation report", type: "MD", href: "evidence/project-2/validation_report.md", detail: "Analytical, UAT/SIT, Excel, web and clean-extract controls" },
       { label: "Portfolio KPI summary", type: "CSV", href: "evidence/project-2/portfolio_kpi_summary.csv", detail: "Account, exposure, PD and EL evidence" },
       { label: "KRI status summary", type: "CSV", href: "evidence/project-2/kri_status_summary.csv", detail: "Threshold-level status board" }
     ],
-    next: { href: "#artifacts", label: "Evidence pack", title: "Supporting artifacts" }
+    next: { href: "#artifacts", label: "Evidence pack", title: "Supporting evidence" }
   }
 };

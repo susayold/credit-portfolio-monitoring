@@ -702,10 +702,11 @@ h4 {
 }
 
 .footer-inner {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(280px, 1.5fr) minmax(220px, 1fr) auto;
   align-items: start;
   justify-content: space-between;
-  gap: 24px;
+  gap: 36px;
 }
 
 .footer-inner p {
@@ -713,6 +714,37 @@ h4 {
   margin: 6px 0 0;
   color: #9fadaa;
   font-size: 0.82rem;
+}
+
+.footer-contact {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  color: #dfe7e5;
+  font-style: normal;
+}
+
+.footer-contact-label {
+  margin-bottom: 2px;
+  color: #8fd0c8;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.footer-contact a {
+  width: fit-content;
+  color: #b8c6c3;
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.footer-contact a:hover,
+.footer-contact a:focus-visible {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .footer-links {
@@ -746,16 +778,8 @@ h4 {
 
 .project-hero-grid {
   display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
-  gap: 34px;
-}
-
-.hero-number {
-  color: var(--project-accent);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 7rem;
-  font-weight: 700;
-  line-height: 0.9;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
 }
 
 .project-kicker {
@@ -995,6 +1019,12 @@ h4 {
   color: var(--project-accent, var(--teal));
   font-size: 0.73rem;
   font-weight: 750;
+}
+
+.inline-label {
+  color: inherit;
+  font: inherit;
+  font-weight: 800;
 }
 
 .process-list {
@@ -1359,6 +1389,10 @@ h4 {
     flex-direction: column;
   }
 
+  .footer-inner {
+    display: flex;
+  }
+
   .project-card {
     min-height: 0;
   }
@@ -1374,10 +1408,6 @@ h4 {
   .project-hero-grid {
     grid-template-columns: 1fr;
     gap: 18px;
-  }
-
-  .hero-number {
-    font-size: 4.4rem;
   }
 
   .metric-rail {
@@ -1409,6 +1439,30 @@ h4 {
   .evidence-ledger {
     grid-template-columns: 1fr;
   }
+}
+
+/* Vietnamese typography uses a native UI font with complete precomposed
+   Vietnamese glyph coverage. This avoids detached diacritics in Georgia on
+   Windows while preserving the English editorial typography. */
+html[lang="vi"] body,
+html[lang="vi"] h1,
+html[lang="vi"] h2,
+html[lang="vi"] h3,
+html[lang="vi"] h4,
+html[lang="vi"] .hero-title,
+html[lang="vi"] .brand-copy strong {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-variant-ligatures: none;
+  letter-spacing: 0;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+html[lang="vi"] h1,
+html[lang="vi"] h2,
+html[lang="vi"] h3,
+html[lang="vi"] h4 {
+  font-weight: 750;
 }
 
 @media (max-width: 440px) {
