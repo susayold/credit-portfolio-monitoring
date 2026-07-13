@@ -6,9 +6,9 @@ window.PORTFOLIO_PROJECTS = {
     accent: "#2559a7",
     category: "Portfolio Risk & Monitoring",
     title: "Credit Portfolio Monitoring & Early Warning",
-    thesis: "A governed monitoring system that translates frozen credit, policy, ECL and enterprise-risk evidence into current/prior/change KRIs, early-warning alerts, decision-ready actions and an interactive web command center.",
+    thesis: "A governed monitoring system that translates credit, policy, ECL and enterprise-risk evidence into current, prior-period and change KRIs, early-warning alerts, accountable actions and an interactive credit risk dashboard.",
     tags: ["Interactive web dashboard", "Portfolio risk", "Multi-vintage", "PSI", "KRI", "Formula Excel", "SQL marts", "Release governance"],
-    heroAction: { href: "dashboards/project-2/index.html", label: "Open web command center", detail: "Seven interactive views with policy and KRI filters" },
+    heroAction: { href: "dashboards/project-2/index.html", label: "Open credit risk dashboard", detail: "Seven interactive views with policy and KRI filters" },
     metrics: [
       { value: "1.348M", label: "Accounts monitored" },
       { value: "19.42B", label: "Exposure proxy" },
@@ -19,7 +19,7 @@ window.PORTFOLIO_PROJECTS = {
     business: {
       question: "Is portfolio risk deteriorating, what is driving the change, which appetite thresholds are breached and who must act?",
       context: "Risk committees need a single monitoring language across portfolio quality, model behavior, policy outcomes, ECL stress, concentration and enterprise-risk signals.",
-      output: "A governed monitoring pack with current/prior/change metrics, source-specific EWS impacts, owner/action closure logic, executable SQL, formula-driven Excel and a seven-view authoritative browser dashboard."
+      output: "A governed monitoring pack with current, prior-period and change metrics, source-specific EWS impacts, owner/action closure logic, executable SQL, formula-driven Excel and a seven-view interactive browser dashboard."
     },
     dataLayers: [
       { meta: "Observed", title: "Historical booked-account base", text: "1,347,681 accounts with frozen PD, score, grade, exposure, bad flag and policy proxies from the Credit Risk Decision Engine and Risk System Rule Implementation projects." },
@@ -35,13 +35,13 @@ window.PORTFOLIO_PROJECTS = {
       { name: "KRI status", expression: "Status = GREEN / AMBER / RED by metric direction and appetite threshold", meaning: "Turns measures into governed escalation signals.", use: "Routes actions to named owners." }
     ],
     process: [
-      { title: "Lock scope and claim boundaries", text: "Define observed versus synthetic use, monitoring period, metric ownership and downstream dependencies before dashboard design.", evidence: "Phase 0 methodology gate" },
+      { title: "Lock scope and claim boundaries", text: "Define observed versus synthetic use, monitoring period, metric ownership and downstream dependencies before dashboard design.", evidence: "Scope, evidence and ownership rules documented" },
       { title: "Build observed monitoring base", text: "Load frozen account evidence from the Credit Risk Decision Engine and Risk System Rule Implementation projects, then reconcile account, exposure, PD and outcome fields.", evidence: "1,347,681 accounts" },
       { title: "Generate servicing control layer", text: "Create deterministic, term-aware monthly DPD states across multiple origination vintages; separate default stock from new-default flow and reconcile every stock-flow bridge.", evidence: "1.8M account-month rows; zero bridge gap" },
       { title: "Calculate monitoring marts", text: "Produce matured-only portfolio/model metrics, period-level feature drift, policy-version bridges, ECL overlays and concentration views.", evidence: "Latest eligible 2017-12 vs 2017-11" },
       { title: "Convert breaches into action", text: "Evaluate eight KRIs with source-specific affected population, impact, owner, decision, acceptance criteria and closure evidence.", evidence: "6 Red, 1 Amber, 7 actions" },
-      { title: "Package decision surfaces", text: "Build executable SQL marts, a 140-formula Excel control model and a responsive browser risk command center.", evidence: "13/13 Excel/Python reconciliation" },
-      { title: "Validate end to end", text: "Freeze an isolated author code/data/output baseline before reviewer start, run executable UAT/SIT/negative tests, compare author versus reviewer code and outputs and validate the final ZIP on clean extract.", evidence: "131/131 controls; 253 manifested release files; clean extract PASS" }
+      { title: "Package decision surfaces", text: "Build executable SQL marts, a 140-formula Excel control model and a responsive credit risk dashboard.", evidence: "13/13 Excel/Python reconciliation" },
+      { title: "Validate end to end", text: "Freeze an isolated reference baseline, run executable UAT/SIT and negative tests, reconcile code and outputs independently, and validate the final package after clean extraction.", evidence: "131/131 controls; 253 manifested release files; clean extract PASS" }
     ],
     resultTables: [
       {
@@ -87,10 +87,10 @@ window.PORTFOLIO_PROJECTS = {
     validation: {
       headline: "The analytical implementation, interactive dashboard and clean-package controls passed validation; evidence scope and limitations remain explicit.",
       cards: [
-        { title: "Validation", text: "131 of 131 author automated checks passed, including 12 substantive reconciliations." },
+        { title: "Validation", text: "All 131 automated checks passed, including 12 substantive reconciliations." },
         { title: "Manifest", text: "253 release-manifested files passed size, SHA-256, unlisted-file and clean-extract controls." },
         { title: "Testing", text: "56 UAT, 25 SIT, 25 injected negative tests, 13 Excel reconciliations and 25 web checks passed." },
-        { title: "Reproducibility", text: "Reference predates reviewer start; 12/12 reference, code-integrity and public-path redaction controls plus 9/9 author-versus-reviewer deterministic outputs passed; final clean-extract validation passed." }
+        { title: "Reproducibility", text: "The reference baseline was frozen before independent reruns; 12/12 integrity and path controls plus 9/9 deterministic output reconciliations passed; clean-extract validation passed." }
       ]
     },
     limitations: [
@@ -98,15 +98,15 @@ window.PORTFOLIO_PROJECTS = {
       "Monthly DPD, roll-rate and cure metrics are synthetic controls-testing evidence and do not represent observed servicing outcomes.",
       "The Credit Risk Decision Engine model, IFRS 9-Style ECL & Stress Testing outputs and Fraud Detection, Controls & Operational Risk indicators are frozen upstream evidence; this monitoring project does not retrain or independently validate them.",
       "No regulatory report, independent validation or organisational sign-off is claimed.",
-      "Power BI implementation is intentionally outside the Web-First public release scope."
+      "Power BI is documented as a separate future workstream; the completed public interface is the interactive web dashboard."
     ],
     employerValues: [
-      { title: "Portfolio diagnosis", text: "I can connect bad rate, exposure, vintage, concentration, model, policy and ECL signals." },
-      { title: "Early warning governance", text: "I can turn thresholds into alerts, owners, actions and committee decisions." },
-      { title: "Technical control", text: "I can implement executable SQL, formula-driven Excel, browser reporting and multi-surface reconciliation with explicit evidence boundaries." }
+      { title: "Portfolio diagnosis", text: "Bad rate, exposure, vintage, concentration, model, policy and ECL signals are integrated into one portfolio view." },
+      { title: "Early warning governance", text: "Risk thresholds are converted into alerts, named owners, actions and committee decisions." },
+      { title: "Technical control", text: "Executable SQL, formula-driven Excel and browser reporting reconcile across delivery surfaces with explicit evidence boundaries." }
     ],
     artifacts: [
-      { label: "Open web command center", type: "WEB", href: "dashboards/project-2/index.html", detail: "Authoritative seven-view interactive risk monitoring" },
+      { label: "Open credit risk dashboard", type: "WEB", href: "dashboards/project-2/index.html", detail: "Seven-view interactive credit risk monitoring" },
       { label: "Credit Portfolio Monitoring README", type: "MD", href: "evidence/project-2/README.md", detail: "Scope, evidence and claim boundary" },
       { label: "Risk committee memo", type: "MD", href: "evidence/project-2/risk_committee_monitoring_memo.md", detail: "Breaches and management actions" },
       { label: "Validation report", type: "MD", href: "evidence/project-2/validation_report.md", detail: "Analytical, UAT/SIT, Excel, web and clean-extract controls" },

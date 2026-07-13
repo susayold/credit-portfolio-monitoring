@@ -1450,7 +1450,9 @@ html[lang="vi"] h2,
 html[lang="vi"] h3,
 html[lang="vi"] h4,
 html[lang="vi"] .hero-title,
-html[lang="vi"] .brand-copy strong {
+html[lang="vi"] .brand-copy strong,
+html[lang="vi"] .decision-question,
+html[lang="vi"] .project-card h3 {
   font-family: "Segoe UI", Arial, sans-serif;
   font-variant-ligatures: none;
   letter-spacing: 0;

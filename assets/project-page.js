@@ -152,7 +152,7 @@
     <section class="project-section" id="visuals">
       <p class="eyebrow">Visual evidence</p>
       <h2>What the analytical outputs show</h2>
-      <p class="lead">These are project-generated analytical visuals, not stock dashboard imagery. Select any chart to inspect it at full size.</p>
+      <p class="lead">Charts are generated from the analytical outputs. Select a chart to inspect the underlying result at full size.</p>
       <div class="chart-grid">${charts}</div>
     </section>` : "";
 
@@ -197,12 +197,12 @@
         <div class="project-main">
           <section class="project-section" id="problem">
             <p class="eyebrow">Business problem</p>
-            <h2>The decision this project is designed to improve</h2>
+            <h2>Decision supported by the analysis</h2>
             <blockquote class="decision-question">${escapeHtml(project.business.question)}</blockquote>
             <div class="three-up">
               <article class="info-block reveal"><h3>Why it matters</h3><p>${escapeHtml(project.business.context)}</p></article>
-              <article class="info-block reveal"><h3>What was delivered</h3><p>${escapeHtml(project.business.output)}</p></article>
-              <article class="info-block reveal"><h3>Primary employer signal</h3><p>${escapeHtml(project.employerValues[0].text)}</p></article>
+              <article class="info-block reveal"><h3>Analytical deliverables</h3><p>${escapeHtml(project.business.output)}</p></article>
+              <article class="info-block reveal"><h3>Analytical approach</h3><p>${escapeHtml(project.employerValues[0].text)}</p></article>
             </div>
           </section>
 
@@ -223,13 +223,13 @@
 
           ${project.resultTables.length ? `
             <section class="project-section" id="results">
-              <p class="eyebrow">Measured evidence</p>
+              <p class="eyebrow">Analytical results</p>
               <h2>Results, interpretation and management action</h2>
               ${tables}
-              <h3 style="margin-top:34px">Risk signals that need attention</h3>
+              <h3 style="margin-top:34px">Material risk signals</h3>
               <ul class="alert-list">${alerts}</ul>
               <div class="decision-panel reveal">
-                <div><h3>Senior finding</h3><p>${escapeHtml(project.decision.finding)}</p></div>
+                <div><h3>Risk assessment</h3><p>${escapeHtml(project.decision.finding)}</p></div>
                 <div class="recommendation"><h3>Management recommendation</h3><p>${escapeHtml(project.decision.recommendation)}</p></div>
               </div>
             </section>` : `
@@ -238,7 +238,7 @@
               <h2>No result is claimed before implementation</h2>
               <ul class="alert-list">${alerts}</ul>
               <div class="decision-panel reveal">
-                <div><h3>Senior finding</h3><p>${escapeHtml(project.decision.finding)}</p></div>
+                <div><h3>Risk assessment</h3><p>${escapeHtml(project.decision.finding)}</p></div>
                 <div class="recommendation"><h3>Recommendation</h3><p>${escapeHtml(project.decision.recommendation)}</p></div>
               </div>
             </section>`}
@@ -250,28 +250,28 @@
             <h2>Validation and limitations</h2>
             <p class="lead">${escapeHtml(project.validation.headline)}</p>
             <div class="validation-grid">${validationCards}</div>
-            <h3 style="margin-top:32px">What this project does not claim</h3>
+            <h3 style="margin-top:32px">Scope boundaries</h3>
             <ul>${limitations}</ul>
           </section>
 
           <section class="project-section" id="artifacts">
-            <p class="eyebrow">Evidence pack</p>
-            <h2>Trace the story back to the artifacts</h2>
-            <p class="lead">A reviewer can move from the website conclusion to methodology, control reports and underlying summary data.</p>
+            <p class="eyebrow">Supporting analysis</p>
+            <h2>Methods, controls and source outputs</h2>
+            <p class="lead">Key conclusions are linked to the methodology, control reports and supporting summary data.</p>
             <ul class="artifact-list">${artifacts}</ul>
           </section>
 
           <section class="project-section" id="value">
-            <p class="eyebrow">Employer value</p>
-            <h2>What this proves I can deliver</h2>
+            <p class="eyebrow">Analytical capabilities</p>
+            <h2>Risk analysis and governance capabilities</h2>
             <div class="employer-grid">${employerValues}</div>
           </section>
         </div>
       </div>
       <section class="project-next" style="--project-accent:${escapeHtml(project.accent)}">
         <div class="container project-next-inner">
-          <div><p class="eyebrow" style="color:rgba(255,255,255,.72)">Project evidence</p><h2>Review the complete analytical evidence</h2><p>This repository contains the completed analytical implementation. Start with the website, then inspect the methodology, validation evidence and source artifacts.</p></div>
-          <a class="button" href="#artifacts">Open evidence pack</a>
+          <div><p class="eyebrow" style="color:rgba(255,255,255,.72)">Analytical documentation</p><h2>Review the complete methodology and results</h2><p>This repository contains the completed analysis, validation controls and supporting source outputs.</p></div>
+          <a class="button" href="#artifacts">Review supporting analysis</a>
         </div>
       </section>
     </main>
