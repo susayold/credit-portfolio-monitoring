@@ -3,7 +3,7 @@
 ## Release identity
 
 - Public release: **Project 2 Web-First Release v1.0**.
-- Analytical baseline: **Project 2 v2.1.4**, reviewer verified and methodologically unchanged.
+- Analytical baseline: **Project 2 v2.1.4**, reviewer-mode reproducibility checked and methodologically unchanged.
 - Authoritative release ZIP: `Project2_CreditPortfolioMonitoring_WEB_FIRST_RELEASE_v1_0.zip`.
 - Power BI: intentionally excluded from public release scope and retained only in the author workspace under `archive/deferred_powerbi/`.
 

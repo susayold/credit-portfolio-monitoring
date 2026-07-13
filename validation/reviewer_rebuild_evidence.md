@@ -12,7 +12,7 @@ Overall result: `PASS_AUTHOR_REVIEWER_RECONCILIATION`
 ## Executed evidence
 
 - Source hash matches: **19/19**
-- Automated validation: **131/131 PASS**
+- Automated validation: **131 automated checks PASS**
 - Frozen author versus later reviewer comparison: **9/9 PASS** against `AUTHOR-20260712-195559`
 - Temporal sequencing: **PASS_REFERENCE_PREEXISTING**; reference generated `2026-07-12T19:55:59.593936`, reviewer started `2026-07-13T13:58:49`
 - Author reference bundle SHA-256: `c2cd1e4a13453b7ab088c9721134e0d60fb6e3f989dc5d5ffac32930341b1de9`

@@ -15,7 +15,7 @@ Portfolio risk is **deteriorating on the latest eligible observed cohort**, whil
 
 ## Policy decision
 
-The 20% candidate improves the auto-approval risk profile: approved bad rate falls from **17.64%** to **14.64%**, and straight-through auto-approved EL falls **49.96%**. This is a decision-routing benefit, not a realised portfolio-loss reduction, because manual-review disposition is not modelled. It fails capacity/customer constraints: approval falls **-3,032 bps**, and manual-review volume rises **150.0%** versus baseline. Recommendation: **PILOT_WITH_CAPACITY_REDESIGN**, not full rollout.
+The 20% candidate improves the auto-approval risk profile: approved bad rate falls from **17.64%** to **14.64%**, and auto-approved routed EL is **49.96% lower versus baseline**. This is a policy-routing simulation result, not a realised portfolio-loss reduction, because manual-review disposition is not modelled. It fails capacity/customer constraints: approval falls **-3,032 bps**, and manual-review volume rises **150.0%** versus baseline. Recommendation: **PILOT_WITH_CAPACITY_REDESIGN**, not full rollout.
 
 ## Decisions required
 

@@ -11,10 +11,10 @@ window.PORTFOLIO_PROJECTS = {
     heroAction: { href: "dashboards/project-2/index.html", label: "Open credit risk dashboard", detail: "Seven interactive views with policy and KRI filters" },
     metrics: [
       { value: "1.348M", label: "Accounts monitored" },
-      { value: "19.42B", label: "Exposure proxy" },
+      { value: "19.42B", label: "Analytical exposure units" },
       { value: "21.35%", label: "Latest matured bad rate" },
       { value: "6 Red", label: "Current KRI view" },
-      { value: "131/131", label: "Automated checks passed" }
+      { value: "131", label: "Automated analytical and control checks" }
     ],
     business: {
       question: "Is portfolio risk deteriorating, what is driving the change, which appetite thresholds are breached and who must act?",
@@ -41,7 +41,7 @@ window.PORTFOLIO_PROJECTS = {
       { title: "Calculate monitoring marts", text: "Produce matured-only portfolio/model metrics, period-level feature drift, policy-version bridges, ECL overlays and concentration views.", evidence: "Latest eligible 2017-12 vs 2017-11" },
       { title: "Convert breaches into action", text: "Evaluate eight KRIs with source-specific affected population, impact, owner, decision, acceptance criteria and closure evidence.", evidence: "6 Red, 1 Amber, 7 actions" },
       { title: "Package decision surfaces", text: "Build executable SQL marts, a 140-formula Excel control model and a responsive credit risk dashboard.", evidence: "13/13 Excel/Python reconciliation" },
-      { title: "Validate end to end", text: "Freeze an isolated reference baseline, run executable UAT/SIT and negative tests, reconcile code and outputs independently, and validate the final package after clean extraction.", evidence: "131/131 controls; 253 manifested release files; clean extract PASS" }
+      { title: "Validate end to end", text: "Freeze an isolated reference baseline, run executable UAT/SIT and negative tests, reconcile code and outputs separately, and validate the final package after clean extraction.", evidence: "131 automated analytical and control checks; 253 manifested release files; clean extract PASS" }
     ],
     resultTables: [
       {
@@ -76,7 +76,7 @@ window.PORTFOLIO_PROJECTS = {
     alerts: [
       { tone: "red", text: "Latest observed bad rate increased 47 bps to 21.35%; ranking weakened and PSI rose to 0.127, requiring portfolio and model-risk diagnosis." },
       { tone: "red", text: "Stage 2 proxy share is materially elevated; interpretation must retain the broad proxy limitation documented in the IFRS 9-Style ECL & Stress Testing project." },
-      { tone: "amber", text: "The 20% policy candidate reduces straight-through auto-approved EL by 49.96% but fails approval and manual-review capacity constraints; this is routing impact, not realised loss reduction." },
+      { tone: "amber", text: "The 20% policy candidate produces 49.96% lower auto-approved routed EL versus baseline but fails approval and manual-review capacity constraints; this is a policy-routing simulation result, not a realised portfolio-loss reduction." },
       { tone: "info", text: "Synthetic DPD, roll-rate and cure outputs demonstrate controls and dashboard behavior, not actual servicing performance." }
     ],
     decision: {
@@ -90,7 +90,7 @@ window.PORTFOLIO_PROJECTS = {
         { title: "Validation", text: "All 131 automated checks passed, including 12 substantive reconciliations." },
         { title: "Manifest", text: "253 release-manifested files passed size, SHA-256, unlisted-file and clean-extract controls." },
         { title: "Testing", text: "56 UAT, 25 SIT, 25 injected negative tests, 13 Excel reconciliations and 25 web checks passed." },
-        { title: "Reproducibility", text: "The reference baseline was frozen before independent reruns; 12/12 integrity and path controls plus 9/9 deterministic output reconciliations passed; clean-extract validation passed." }
+        { title: "Reproducibility", text: "The reference baseline was frozen before separate reviewer-mode reproducibility reruns; 12/12 integrity and path controls plus 9/9 deterministic output reconciliations passed; clean-extract validation passed." }
       ]
     },
     limitations: [

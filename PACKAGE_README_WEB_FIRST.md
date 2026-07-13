@@ -4,7 +4,7 @@ Start with `OPEN_THIS_FIRST.html`.
 
 ## Included
 
-- reviewer-verified analytical baseline v2.1.4;
+- reviewer-mode reproducibility checked analytical baseline v2.1.4;
 - governed data, Python, SQL and analytical outputs;
 - formula-driven Excel control model;
 - risk committee, monitoring and governance reports;
@@ -25,7 +25,7 @@ These exclusions do not remove governed data, formulas, analytical results or re
 
 - Browser dashboard: complete and authoritative.
 - Excel control model: complete and reconciled.
-- Analytical baseline: reviewer verified.
+- Analytical baseline: reviewer-mode reproducibility checked.
 - Public claim scope: historical educational monitoring framework.
 - Power BI: intentionally outside the release scope.
 

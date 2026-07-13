@@ -1,6 +1,6 @@
 # Project 2 - Credit Portfolio Monitoring and Early Warning
 
-> Public delivery: **Web-First Release v1.0**. Analytical foundation: reviewer-verified **v2.1.4**. Power BI implementation is intentionally excluded from this release.
+> Public delivery: **Web-First Release v1.0**. Analytical foundation: reviewer-mode reproducibility checked **v2.1.4**. Power BI implementation is intentionally excluded from this release.
 
 ## Business purpose
 
@@ -14,7 +14,7 @@ Open `OPEN_THIS_FIRST.html`, then use `dashboard/index.html` as the authoritativ
 - Latest observed matured bad rate 21.35%, up 47 bps versus 2017-11.
 - Latest AUC 0.597, fixed-bin PD PSI 0.127 and calibration gap 2.89%.
 - Grades D/E contain 673,840 accounts and represent 50.00% of the portfolio.
-- The 20% policy candidate reduces routed auto-approved expected loss by 49.96%, while approval drops 30.32pp and manual review rises 150.0% versus baseline.
+- The 20% policy candidate produces 49.96% lower auto-approved routed EL versus baseline, while approval drops 30.32pp and manual review rises 150.0% versus baseline.
 - Management recommendation: `PILOT_WITH_CAPACITY_REDESIGN`, not wholesale rollout.
 
 ## What the release proves
@@ -28,7 +28,7 @@ Open `OPEN_THIS_FIRST.html`, then use `dashboard/index.html` as the authoritativ
 
 ## Validation
 
-- Analytical controls: 131/131 PASS.
+- Analytical controls: 131 automated checks PASS.
 - UAT: 56/56 PASS.
 - SIT: 25/25 PASS.
 - Negative tests: 25/25 PASS.

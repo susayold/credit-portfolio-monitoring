@@ -2,7 +2,7 @@
 
 | Control layer | Result |
 | --- | ---: |
-| Analytical baseline | 131/131 PASS |
+| Analytical baseline | 131 automated checks PASS |
 | UAT | 56/56 PASS |
 | SIT | 25/25 PASS |
 | Negative and exception tests | 25/25 PASS |

@@ -15,10 +15,10 @@ This project presents a governed credit portfolio monitoring framework that conn
 ## Key Results
 
 - 1.348 million accepted/booked accounts monitored.
-- 19.42 billion exposure proxy assessed.
+- 19.42B analytical exposure units assessed.
 - 21.35% latest matured bad rate.
 - Six red KRIs and one amber KRI translated into named actions.
-- 131/131 automated analytical and control checks passed.
+- 131 automated analytical and control checks passed.
 
 ## What The Project Demonstrates
 

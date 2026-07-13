@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "release": "Project 2 Web-First Release v1.0",
-  "analytical_baseline": "v2.1.4 reviewer verified",
+  "analytical_baseline": "v2.1.4 reviewer-mode reproducibility checked",
   "web_validator": {
     "command": "python.exe scripts/15_validate_web_dashboard.py",
     "status": "PASS",

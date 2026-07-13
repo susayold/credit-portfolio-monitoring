@@ -14,5 +14,5 @@
 ## Analytical baseline v2.1.4 - 2026-07-12
 
 - Hardened author-versus-reviewer reproducibility, immutable baseline evidence, temporal controls, Excel calculation evidence and synthetic KRI wording.
-- Preserved as the reviewer-verified analytical foundation for Web-First Release v1.0.
+- Preserved as the reviewer-mode reproducibility checked analytical foundation for Web-First Release v1.0.
 

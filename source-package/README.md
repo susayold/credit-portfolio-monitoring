@@ -1,4 +1,4 @@
-# Project 2 - Credit Portfolio Monitoring and Early Warning
+﻿# Project 2 - Credit Portfolio Monitoring and Early Warning
 
 ## Portfolio review path
 
@@ -9,7 +9,7 @@
 - Limitations: `LIMITATIONS.md`
 - Artifact map: `ARTIFACT_INDEX.md`
 
-> Public delivery: **Web-First Release v1.0**. Analytical foundation: reviewer-verified **v2.1.4**. Power BI implementation is intentionally excluded from this release.
+> Public delivery: **Web-First Release v1.0**. Analytical foundation: reviewer-mode reproducibility checked **v2.1.4**. Power BI implementation is intentionally excluded from this release.
 
 ## Business purpose
 
@@ -58,3 +58,4 @@ Observed credit outcomes cover historical matured accepted/booked accounts, not 
 - `reports/risk_committee_monitoring_memo.md` - management decision memo.
 - `validation/web_first_release_validation_report.md` - current release validation.
 - `PACKAGE_INDEX.md` - authoritative package map.
+

@@ -8,7 +8,7 @@
 
 | Control layer | Result | Evidence |
 | --- | --- | --- |
-| Analytical baseline controls | 131/131 PASS | `validation/validation_checks.csv` |
+| Analytical baseline controls | 131 automated checks PASS | `validation/validation_checks.csv` |
 | User acceptance tests | 56/56 PASS | `testing/uat_test_cases.csv` |
 | System integration tests | 25/25 PASS | `testing/sit_test_cases.csv` |
 | Negative and exception tests | 25/25 PASS | `testing/negative_test_cases.csv` |

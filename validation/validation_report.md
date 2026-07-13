@@ -4,7 +4,7 @@
 
 ## Automated status
 
-**PASS - 131/131 automated checks passed.**
+**PASS - 131 automated analytical and control checks passed.**
 
 - Executable UAT: **56/56**.
 - Executable SIT: **25/25**.

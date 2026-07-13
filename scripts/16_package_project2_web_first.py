@@ -261,7 +261,7 @@ def main() -> int:
             {
                 "status": "PASS" if preflight_status else "FAIL",
                 "release": "Project 2 Web-First Release v1.0",
-                "analytical_baseline": "v2.1.4 reviewer verified",
+                "analytical_baseline": "v2.1.4 reviewer-mode reproducibility checked",
                 "web_validator": web_check,
                 "control_counts": row_checks,
                 "author_local_path_findings": author_paths,
